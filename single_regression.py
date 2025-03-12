@@ -5,7 +5,7 @@ from typing import Callable, Any
 
 from machetli import sas
 from properties import Property
-from run_planner import run_planner
+from environments import RunEnvironment
 
 
 class Condition:
@@ -29,14 +29,14 @@ class LambdaCondition(Condition):
 
 class SingleRegressionEvaluator:
     # Evaluates the buggy configuration against the ground truth configuration
-    def __init__(self, planner: Path, configuration: str, conditions: list[Condition]):
-        self.planner = planner
+    def __init__(self, run_env: RunEnvironment, configuration: str, conditions: list[Condition | Property]):
+        self.run_env = run_env
         self.configuration = configuration
         self.conditions = conditions
 
     def run_evaluator(self):
         def evaluate(sas_file: Path):
-            log = run_planner(sas_file, self.planner, self.configuration)
+            log = self.run_env.run_planner(sas_file, self.configuration)
             return all(
                 condition.evaluate(log.stdout)
                 for condition in self.conditions

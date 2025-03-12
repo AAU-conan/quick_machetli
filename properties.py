@@ -37,3 +37,9 @@ class InputReadCompletedProperty(Property):
 
 def SolvedProperty() -> RegexContainsProperty:
     return RegexContainsProperty(r"Solution found.")
+
+def UnsolvableProperty() -> RegexContainsProperty:
+    return RegexContainsProperty(r"Completely explored state space -- no solution!")
+
+def CostProperty() -> TypedRegexProperty:
+    return TypedRegexProperty(r"Plan cost: (\d+)", int)
