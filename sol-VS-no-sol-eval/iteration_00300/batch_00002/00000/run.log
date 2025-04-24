@@ -1,0 +1,538 @@
+['/home/mafe/Documents/Phd/conan/conan-dev/builds/release/bin/downward', '--search', 'propagation(eval=propagation_evaluator(eval=blind()))']
+[t=0.000000s, 13104 KB] reading input...
+[t=0.000000s, 13104 KB] done reading input!
+[t=0.002001s, 13500 KB] Initializing blind search heuristic...
+[t=0.002001s, 13500 KB] Building successor generator...done!
+[t=0.002001s, 13500 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.002001s, 13500 KB] time for successor generation creation: 0.000000s
+[t=0.002001s, 13500 KB] Variables: 5
+[t=0.002001s, 13500 KB] FactPairs: 55
+[t=0.002001s, 13500 KB] Bytes per state: 4
+[t=0.002001s, 13500 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Computing dominance relation...
+[t=0.002001s, 13500 KB] Building atomic transition systems... 
+[t=0.002001s, 13500 KB] Initialize label dominance: 51 labels 5 systems.
+[t=0.002001s, 13500 KB] Compute LDSim on 5 LTSs. Total factor size: 55, total trsize: 114, max factor size: 36, max trsize: 73
+[t=0.002001s, 13500 KB] Init LDSim in 0.000000s: 0.001003s 0.001003s 0.001003s
+[t=0.003004s, 13500 KB] LDSimulation finished: 0.001003s
+[t=0.003004s, 13500 KB] f = 1, 1 evaluated, 0 expanded
+[t=0.003004s, 13500 KB] pruning method: none
+[t=0.003004s, 13500 KB] New best heuristic value for blind: 1
+[t=0.003004s, 13500 KB] g=1, 2 evaluated, 1 expanded
+Number of iterations: 1
+Updated by pathmax rule 2: #0 from: #1
+Number of iterations: 2
+Number of iterations: 3
+[t=0.003004s, 13500 KB] f = 2, 3 evaluated, 1 expanded
+Number of iterations: 4
+Updated by pathmax rule 2: #1 from: #3
+Number of iterations: 5
+Number of iterations: 6
+Number of iterations: 7
+Updated by pathmax rule 2: #2 from: #5
+Number of iterations: 8
+Updated by pathmax rule 2: #0 from: #3
+Number of iterations: 9
+Number of iterations: 10
+Number of iterations: 11
+[t=0.003981s, 13500 KB] f = 3, 8 evaluated, 3 expanded
+Number of iterations: 12
+Updated by pathmax rule 2: #3 from: #8
+Number of iterations: 13
+Number of iterations: 14
+Number of iterations: 15
+Number of iterations: 16
+Updated by pathmax rule 2: #4 from: #11
+Number of iterations: 17
+Updated by pathmax rule 2: #1 from: #8
+Number of iterations: 18
+
+
+State: #5 which descends from parent: #0 dominates child: #8
+Number of iterations: 19
+Updated by pathmax rule 2: #5 from: #12
+Number of iterations: 20
+Updated by conan rule: #8 from: #5
+Number of iterations: 21
+Number of iterations: 22
+Updated by pathmax rule 2: #6 from: #9
+Number of iterations: 23
+Number of iterations: 24
+Updated by pathmax rule 2: #7 from: #14
+Number of iterations: 25
+Updated by pathmax rule 2: #2 from: #12
+Number of iterations: 26
+Updated by pathmax rule 2: #0 from: #10
+Number of iterations: 27
+Updated by conan rule: #9 from: #0
+Number of iterations: 28
+Number of iterations: 29
+[t=0.003981s, 13500 KB] f = 4, 16 evaluated, 8 expanded
+Number of iterations: 30
+Updated by pathmax rule 2: #10 from: #16
+Number of iterations: 31
+Updated by pathmax rule 2: #3 from: #8
+Number of iterations: 32
+Number of iterations: 33
+Number of iterations: 34
+Updated by pathmax rule 2: #11 from: #18
+Number of iterations: 35
+Updated by pathmax rule 2: #4 from: #18
+Number of iterations: 36
+Updated by pathmax rule 2: #1 from: #8
+Number of iterations: 37
+
+
+State: #14 which descends from parent: #0 dominates child: #8
+
+
+State: #14 which descends from parent: #0 dominates child: #16
+Number of iterations: 38
+Number of iterations: 39
+Number of iterations: 40
+Updated by pathmax rule 2: #5 from: #12
+Updated by conan rule: #8 from: #12
+Number of iterations: 41
+Updated by pathmax rule 2: #3 from: #9
+Number of iterations: 42
+Updated by pathmax rule 1: #10 from: #3
+Number of iterations: 43
+Updated by pathmax rule 1: #16 from: #10
+Updated by pathmax rule 1: #17 from: #10
+Number of iterations: 44
+Number of iterations: 45
+Number of iterations: 46
+Number of iterations: 47
+Updated by pathmax rule 2: #14 from: #21
+Number of iterations: 48
+Number of iterations: 49
+Number of iterations: 50
+Updated by pathmax rule 2: #15 from: #23
+Number of iterations: 51
+Updated by pathmax rule 2: #7 from: #21
+Number of iterations: 52
+
+
+State: #19 which descends from parent: #2 dominates child: #9
+Updated by pathmax rule 2: #2 from: #19
+Number of iterations: 53
+
+
+State: #16 which descends from parent: #0 dominates child: #8
+Updated by pathmax rule 2: #0 from: #18
+Updated by pathmax rule 1: #6 from: #2
+Number of iterations: 54
+
+
+State: #19 which descends from parent: #2 dominates child: #9
+Updated by pathmax rule 2: #13 from: #19
+Number of iterations: 55
+
+
+State: #19 which descends from parent: #6 dominates child: #9
+Number of iterations: 56
+Updated by conan rule: #9 from: #0
+Number of iterations: 57
+Updated by pathmax rule 2: #3 from: #9
+
+
+State: #19 which descends from parent: #6 dominates child: #9
+Number of iterations: 58
+Updated by pathmax rule 1: #10 from: #3
+Number of iterations: 59
+Updated by pathmax rule 1: #16 from: #10
+Updated by pathmax rule 1: #17 from: #10
+Number of iterations: 60
+Number of iterations: 61
+[t=0.003981s, 13500 KB] f = 5, 24 evaluated, 14 expanded
+Number of iterations: 62
+Updated by pathmax rule 2: #18 from: #24
+Number of iterations: 63
+Number of iterations: 64
+Number of iterations: 65
+Updated by pathmax rule 2: #19 from: #26
+Number of iterations: 66
+
+
+State: #19 which descends from parent: #13 dominates child: #27
+Updated by pathmax rule 2: #13 from: #13
+Updated by conan rule: #27 from: #19
+Number of iterations: 67
+Number of iterations: 68
+Updated by pathmax rule 2: #6 from: #9
+Updated by pathmax rule 1: #19 from: #13
+Updated by pathmax rule 1: #6 from: #13
+Updated by conan rule: #26 from: #13
+Number of iterations: 69
+
+
+State: #19 which descends from parent: #13 dominates child: #27
+Updated by pathmax rule 1: #27 from: #19
+Updated by conan rule: #9 from: #19
+Number of iterations: 70
+
+
+State: #16 which descends from parent: #3 dominates child: #8
+Updated by pathmax rule 2: #3 from: #9
+Number of iterations: 71
+
+
+State: #16 which descends from parent: #1 dominates child: #8
+Updated by pathmax rule 1: #10 from: #3
+Number of iterations: 72
+Updated by pathmax rule 1: #16 from: #10
+Updated by pathmax rule 1: #17 from: #10
+Number of iterations: 73
+Number of iterations: 74
+Number of iterations: 75
+Number of iterations: 76
+
+
+State: #19 which descends from parent: #13 dominates child: #27
+Number of iterations: 77
+Number of iterations: 78
+Updated by pathmax rule 2: #20 from: #28
+Number of iterations: 79
+Updated by pathmax rule 2: #11 from: #24
+Number of iterations: 80
+
+
+State: #19 which descends from parent: #4 dominates child: #27
+Updated by pathmax rule 2: #4 from: #24
+Number of iterations: 81
+
+
+State: #4 which descends from parent: #1 dominates child: #26
+
+
+State: #19 which descends from parent: #1 dominates child: #27
+
+
+State: #28 which descends from parent: #1 dominates child: #8
+
+
+State: #19 which descends from parent: #1 dominates child: #9
+
+
+State: #28 which descends from parent: #1 dominates child: #16
+Updated by pathmax rule 2: #1 from: #24
+Number of iterations: 82
+
+
+State: #23 which descends from parent: #0 dominates child: #26
+
+
+State: #28 which descends from parent: #0 dominates child: #8
+
+
+State: #28 which descends from parent: #0 dominates child: #16
+
+
+State: #19 which descends from parent: #4 dominates child: #27
+Number of iterations: 83
+Number of iterations: 84
+Updated by pathmax rule 2: #21 from: #30
+Number of iterations: 85
+[t=0.003981s, 13500 KB] f = 6, 31 evaluated, 20 expanded
+Number of iterations: 86
+Updated by pathmax rule 2: #24 from: #31
+Number of iterations: 87
+Number of iterations: 88
+Updated by pathmax rule 2: #28 from: #32
+Number of iterations: 89
+Number of iterations: 90
+Number of iterations: 91
+Number of iterations: 92
+Updated by pathmax rule 2: #29 from: #35
+Number of iterations: 93
+Updated by pathmax rule 2: #20 from: #32
+
+
+State: #29 which descends from parent: #23 dominates child: #36
+Updated by pathmax rule 2: #23 from: #23
+Updated by conan rule: #36 from: #29
+Number of iterations: 94
+Number of iterations: 95
+Updated by pathmax rule 2: #15 from: #17
+Updated by pathmax rule 1: #29 from: #23
+Updated by conan rule: #35 from: #23
+Number of iterations: 96
+
+
+State: #29 which descends from parent: #20 dominates child: #36
+
+
+State: #29 which descends from parent: #23 dominates child: #36
+Updated by pathmax rule 1: #36 from: #29
+Number of iterations: 97
+Number of iterations: 98
+Updated by pathmax rule 2: #7 from: #30
+
+
+State: #29 which descends from parent: #23 dominates child: #36
+Number of iterations: 99
+
+
+State: #30 which descends from parent: #2 dominates child: #12
+
+
+State: #17 which descends from parent: #2 dominates child: #9
+
+
+State: #13 which descends from parent: #2 dominates child: #26
+
+
+State: #19 which descends from parent: #2 dominates child: #27
+Updated by pathmax rule 2: #2 from: #30
+Updated by pathmax rule 1: #14 from: #7
+Number of iterations: 100
+Updated by pathmax rule 1: #22 from: #14
+Number of iterations: 101
+Number of iterations: 102
+
+
+State: #4 which descends from parent: #0 dominates child: #26
+
+
+State: #24 which descends from parent: #0 dominates child: #8
+
+
+State: #28 which descends from parent: #0 dominates child: #16
+
+
+State: #29 which descends from parent: #0 dominates child: #17
+
+
+State: #30 which descends from parent: #0 dominates child: #12
+Updated by pathmax rule 2: #0 from: #30
+Number of iterations: 103
+Number of iterations: 104
+
+
+State: #35 which descends from parent: #11 dominates child: #26
+
+
+State: #29 which descends from parent: #11 dominates child: #27
+Updated by pathmax rule 2: #11 from: #31
+Number of iterations: 105
+
+
+State: #29 which descends from parent: #4 dominates child: #27
+Updated by pathmax rule 2: #4 from: #31
+Updated by pathmax rule 1: #18 from: #11
+Number of iterations: 106
+
+
+State: #35 which descends from parent: #11 dominates child: #26
+
+
+State: #29 which descends from parent: #11 dominates child: #27
+Updated by pathmax rule 1: #25 from: #18
+Number of iterations: 107
+Number of iterations: 108
+
+
+State: #4 which descends from parent: #1 dominates child: #26
+
+
+State: #19 which descends from parent: #1 dominates child: #27
+
+
+State: #24 which descends from parent: #1 dominates child: #8
+
+
+State: #19 which descends from parent: #1 dominates child: #9
+
+
+State: #28 which descends from parent: #1 dominates child: #16
+
+
+State: #29 which descends from parent: #1 dominates child: #17
+Updated by pathmax rule 2: #1 from: #31
+Number of iterations: 109
+
+
+State: #22 which descends from parent: #0 dominates child: #12
+
+
+State: #13 which descends from parent: #0 dominates child: #26
+
+
+State: #32 which descends from parent: #0 dominates child: #8
+
+
+State: #22 which descends from parent: #0 dominates child: #16
+
+
+State: #29 which descends from parent: #4 dominates child: #27
+Number of iterations: 110
+Number of iterations: 111
+Updated by pathmax rule 2: #21 from: #30
+Updated by pathmax rule 2: #22 from: #30
+Updated by conan rule: #14 from: #30
+Number of iterations: 112
+Updated by pathmax rule 2: #7 from: #7
+Number of iterations: 113
+Updated by pathmax rule 2: #2 from: #2
+Number of iterations: 114
+
+
+State: #4 which descends from parent: #0 dominates child: #26
+
+
+State: #24 which descends from parent: #0 dominates child: #8
+
+
+State: #28 which descends from parent: #0 dominates child: #16
+
+
+State: #29 which descends from parent: #0 dominates child: #17
+Updated by pathmax rule 2: #0 from: #31
+Number of iterations: 115
+Number of iterations: 116
+Number of iterations: 117
+[t=0.003981s, 13500 KB] f = 7, 37 evaluated, 25 expanded
+Number of iterations: 118
+Updated by pathmax rule 2: #24 from: #31
+Updated by pathmax rule 2: #25 from: #31
+Updated by conan rule: #18 from: #31
+Number of iterations: 119
+
+
+State: #35 which descends from parent: #11 dominates child: #26
+
+
+State: #29 which descends from parent: #11 dominates child: #27
+Number of iterations: 120
+Number of iterations: 121
+Number of iterations: 122
+Updated by pathmax rule 2: #32 from: #37
+Number of iterations: 123
+Number of iterations: 124
+Number of iterations: 125
+Updated by pathmax rule 2: #33 from: #37
+Number of iterations: 126
+[t=0.003981s, 13500 KB] f = 8, 40 evaluated, 29 expanded
+Number of iterations: 127
+Updated by pathmax rule 2: #37 from: #40
+Number of iterations: 128
+[t=0.003981s, 13500 KB] f = 9, 41 evaluated, 32 expanded
+Number of iterations: 129
+Updated by pathmax rule 2: #37 from: #40
+Updated by pathmax rule 2: #38 from: #40
+Updated by pathmax rule 2: #39 from: #40
+Updated by conan rule: #28 from: #40
+Updated by conan rule: #32 from: #40
+Updated by conan rule: #33 from: #40
+Updated by conan rule: #34 from: #40
+Number of iterations: 130
+Number of iterations: 131
+Number of iterations: 132
+Number of iterations: 133
+Updated by pathmax rule 2: #20 from: #20
+Number of iterations: 134
+Updated by pathmax rule 2: #11 from: #11
+Number of iterations: 135
+
+
+State: #19 which descends from parent: #4 dominates child: #27
+Updated by pathmax rule 2: #4 from: #4
+Number of iterations: 136
+
+
+State: #4 which descends from parent: #1 dominates child: #26
+
+
+State: #19 which descends from parent: #1 dominates child: #27
+Updated by pathmax rule 2: #1 from: #1
+Number of iterations: 137
+
+
+State: #4 which descends from parent: #0 dominates child: #26
+
+
+State: #29 which descends from parent: #0 dominates child: #17
+Updated by pathmax rule 2: #0 from: #0
+
+
+State: #19 which descends from parent: #4 dominates child: #27
+Number of iterations: 138
+Number of iterations: 139
+Number of iterations: 140
+Number of iterations: 141
+[t=0.003981s, 13500 KB] Completely explored state space -- no solution!
+Max heuristic expanded: 9
+[t=0.003981s, 13500 KB] Actual search time: 0.000977s
+[t=0.003981s, 13500 KB] Expanded 33 state(s).
+[t=0.003981s, 13500 KB] Reopened 0 state(s).
+[t=0.003981s, 13500 KB] Evaluated 41 state(s).
+[t=0.003981s, 13500 KB] Evaluations: 40
+[t=0.003981s, 13500 KB] Generated 57 state(s).
+[t=0.003981s, 13500 KB] Dead ends: 8 state(s).
+[t=0.003981s, 13500 KB] Expanded until last jump: 32 state(s).
+[t=0.003981s, 13500 KB] Reopened until last jump: 0 state(s).
+[t=0.003981s, 13500 KB] Evaluated until last jump: 41 state(s).
+[t=0.003981s, 13500 KB] Generated until last jump: 57 state(s).
+[t=0.003981s, 13500 KB] Number of registered states: 41
+[t=0.003981s, 13500 KB] Int hash set load factor: 41/64 = 0.640625
+[t=0.003981s, 13500 KB] Int hash set resizes: 6
+[t=0.003981s, 13500 KB] Search time: 0.001980s
+[t=0.003981s, 13500 KB] Total time: 0.003981s
+Search stopped without finding a solution.
+Peak memory: 13500 KB
+
+['/home/mafe/Documents/Phd/conan/conan-dev/builds/release/bin/downward', '--search', 'astar(blind(), pruning=dominance(database=previous_lower_g()))']
+[t=0.000000s, 13104 KB] reading input...
+[t=0.000858s, 13104 KB] done reading input!
+[t=0.001838s, 13500 KB] Initializing blind search heuristic...
+[t=0.001838s, 13500 KB] Building successor generator...done!
+[t=0.001838s, 13500 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.001838s, 13500 KB] time for successor generation creation: 0.000000s
+[t=0.001838s, 13500 KB] Variables: 5
+[t=0.001838s, 13500 KB] FactPairs: 55
+[t=0.001838s, 13500 KB] Bytes per state: 4
+[t=0.001838s, 13500 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+[t=0.001838s, 13500 KB] New best heuristic value for blind: 1
+[t=0.001838s, 13500 KB] g=0, 1 evaluated, 0 expanded
+[t=0.001838s, 13500 KB] f = 1, 1 evaluated, 0 expanded
+[t=0.001838s, 13500 KB] Initial heuristic value for blind: 1
+[t=0.001838s, 13500 KB] Building atomic transition systems... 
+[t=0.001838s, 13500 KB] Initialize label dominance: 51 labels 5 systems.
+[t=0.001838s, 13500 KB] Compute LDSim on 5 LTSs. Total factor size: 55, total trsize: 114, max factor size: 36, max trsize: 73
+[t=0.001838s, 13500 KB] Init LDSim in 0.000000s: 0.000000s 0.001000s 0.001000s
+[t=0.002838s, 13500 KB] LDSimulation finished: 0.001000s
+[t=0.002838s, 13500 KB] Dominance pruning initialized
+[t=0.002838s, 13500 KB] f = 2, 3 evaluated, 1 expanded
+[t=0.002838s, 13500 KB] f = 3, 8 evaluated, 3 expanded
+[t=0.002838s, 13500 KB] f = 4, 14 evaluated, 8 expanded
+[t=0.002838s, 13500 KB] f = 5, 21 evaluated, 14 expanded
+[t=0.002838s, 13500 KB] f = 6, 26 evaluated, 21 expanded
+[t=0.002838s, 13500 KB] f = 7, 30 evaluated, 26 expanded
+[t=0.002838s, 13500 KB] f = 8, 33 evaluated, 30 expanded
+[t=0.002838s, 13500 KB] f = 9, 34 evaluated, 33 expanded
+[t=0.002838s, 13500 KB] Completely explored state space -- no solution!
+[t=0.002838s, 13500 KB] Actual search time: 0.000000s
+[t=0.002838s, 13500 KB] Expanded 34 state(s).
+[t=0.002838s, 13500 KB] Reopened 0 state(s).
+[t=0.002838s, 13500 KB] Evaluated 34 state(s).
+[t=0.002838s, 13500 KB] Evaluations: 34
+[t=0.002838s, 13500 KB] Generated 33 state(s).
+[t=0.002838s, 13500 KB] Dead ends: 0 state(s).
+[t=0.002838s, 13500 KB] Expanded until last jump: 33 state(s).
+[t=0.002838s, 13500 KB] Reopened until last jump: 0 state(s).
+[t=0.002838s, 13500 KB] Evaluated until last jump: 34 state(s).
+[t=0.002838s, 13500 KB] Generated until last jump: 33 state(s).
+[t=0.002838s, 13500 KB] Number of registered states: 34
+[t=0.002838s, 13500 KB] Int hash set load factor: 34/64 = 0.531250
+[t=0.002838s, 13500 KB] Int hash set resizes: 6
+[t=0.002838s, 13500 KB] total successors before pruning: 58
+[t=0.002838s, 13500 KB] total successors after pruning: 33
+[t=0.002838s, 13500 KB] Pruning ratio: 0.431034
+[t=0.002838s, 13500 KB] total states checked: 34
+[t=0.002838s, 13500 KB] total states pruned: 0
+[t=0.002838s, 13500 KB] Pruning ratio expansions: 0.000000
+[t=0.002838s, 13500 KB] Search time: 0.001000s
+[t=0.002838s, 13500 KB] Total time: 0.002838s
+Search stopped without finding a solution.
+Peak memory: 13500 KB
+

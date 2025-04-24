@@ -1,0 +1,50 @@
+
+
+Expanding state: #0 with h: 1 and g: 0
+Atom at(t0, l2), Atom at(p2, l3), Atom at(p1, l1)
+Successor state: #1 with h: 1 and g: 1
+Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l1)
+Successor state: #2 with h: 1 and g: 1
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l1)
+
+
+Expanding state: #1 with h: 1 and g: 1
+Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l1)
+Successor state: #2 with h: 1 and g: 1
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l1)
+Successor state: #3 with h: 1 and g: 2
+Atom at(t0, l1), Atom at(p2, l3), Atom in(p1, t0)
+
+
+Expanding state: #2 with h: 1 and g: 1
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l1)
+
+
+Expanding state: #3 with h: 1 and g: 2
+Atom at(t0, l1), Atom at(p2, l3), Atom in(p1, t0)
+Successor state: #4 with h: 1 and g: 3
+Atom at(t0, l3), Atom at(p2, l3), Atom in(p1, t0)
+
+
+Expanding state: #4 with h: 1 and g: 3
+Atom at(t0, l3), Atom at(p2, l3), Atom in(p1, t0)
+Successor state: #5 with h: 1 and g: 6
+Atom at(t0, l2), Atom at(p2, l3), Atom at(p1, l0)
+
+
+Expanding state: #5 with h: 1 and g: 6
+Atom at(t0, l2), Atom at(p2, l3), Atom at(p1, l0)
+Successor state: #6 with h: 1 and g: 7
+Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l0)
+Successor state: #7 with h: 1 and g: 7
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l0)
+
+
+Expanding state: #6 with h: 1 and g: 7
+Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l0)
+Successor state: #7 with h: 1 and g: 7
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l0)
+
+
+Expanding state: #7 with h: 1 and g: 7
+Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l0)

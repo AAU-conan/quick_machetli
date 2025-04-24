@@ -31,6 +31,11 @@ class RegexContainsProperty(RegexProperty):
     def evaluate(self, input: str) -> bool:
         return re.search(self.regex, input) is not None
 
+class RegexAllProperty(RegexProperty):
+    def evaluate(self, input: str) -> list[str]:
+        matches = re.findall(self.regex, input)
+        return matches if matches else None 
+
 class InputReadCompletedProperty(Property):
     def evaluate(self, input: str) -> bool:
         return "done reading input!" in input

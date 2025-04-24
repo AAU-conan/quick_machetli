@@ -1,0 +1,7357 @@
+['/home/mafe/Documents/Phd/conan/conan-dev/builds/release/bin/downward', '--search', 'propagation(eval=propagation_evaluator(eval=blind()))']
+[t=0.000000s, 13104 KB] reading input...
+[t=0.000000s, 13104 KB] done reading input!
+[t=0.001001s, 13500 KB] Initializing blind search heuristic...
+[t=0.001001s, 13500 KB] Building successor generator...done!
+[t=0.001001s, 13500 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.001001s, 13500 KB] time for successor generation creation: 0.000000s
+[t=0.001001s, 13500 KB] Variables: 5
+[t=0.001001s, 13500 KB] FactPairs: 55
+[t=0.001001s, 13500 KB] Bytes per state: 4
+[t=0.001001s, 13500 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Computing dominance relation...
+[t=0.001001s, 13500 KB] Building atomic transition systems... 
+[t=0.001001s, 13500 KB] Initialize label dominance: 202 labels 5 systems.
+[t=0.001999s, 13500 KB] Compute LDSim on 5 LTSs. Total factor size: 55, total trsize: 219, max factor size: 36, max trsize: 176
+[t=0.001999s, 13500 KB] Init LDSim in 0.000998s: 0.000998s 0.001998s 0.002998s 0.003997s
+[t=0.004998s, 13500 KB] LDSimulation finished: 0.003997s
+[t=0.004998s, 13500 KB] f = 1, 1 evaluated, 0 expanded
+[t=0.004998s, 13500 KB] pruning method: none
+[t=0.004998s, 13500 KB] New best heuristic value for blind: 1
+[t=0.004998s, 13500 KB] g=1, 2 evaluated, 1 expanded
+Number of iterations: 1
+Updated by pathmax rule 2: #0 from: #1
+Number of iterations: 2
+[t=0.005998s, 13500 KB] f = 2, 2 evaluated, 1 expanded
+Number of iterations: 3
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 4
+Updated by pathmax rule 2: #0 from: #2
+Number of iterations: 5
+Number of iterations: 6
+Number of iterations: 7
+[t=0.005998s, 13500 KB] f = 3, 5 evaluated, 2 expanded
+Number of iterations: 8
+Updated by pathmax rule 2: #2 from: #5
+Number of iterations: 9
+Number of iterations: 10
+Number of iterations: 11
+Updated by pathmax rule 2: #3 from: #7
+Number of iterations: 12
+Updated by conan rule: #9 from: #3
+Number of iterations: 13
+Number of iterations: 14
+Number of iterations: 15
+Number of iterations: 16
+Updated by pathmax rule 2: #0 from: #10
+Updated by pathmax rule 2: #4 from: #10
+Number of iterations: 17
+Updated by pathmax rule 2: #1 from: #5
+Number of iterations: 18
+Number of iterations: 19
+Number of iterations: 20
+Number of iterations: 21
+[t=0.005998s, 13500 KB] f = 4, 12 evaluated, 5 expanded
+Number of iterations: 22
+Updated by pathmax rule 2: #5 from: #12
+Number of iterations: 23
+Updated by conan rule: #13 from: #5
+Number of iterations: 24
+Number of iterations: 25
+Number of iterations: 26
+Updated by pathmax rule 2: #6 from: #14
+Number of iterations: 27
+Updated by pathmax rule 2: #2 from: #12
+Number of iterations: 28
+Number of iterations: 29
+Number of iterations: 30
+Number of iterations: 31
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 32
+Updated by conan rule: #18 from: #7
+Number of iterations: 33
+Number of iterations: 34
+Number of iterations: 35
+Updated by pathmax rule 2: #8 from: #19
+Number of iterations: 36
+Updated by pathmax rule 2: #3 from: #17
+Updated by conan rule: #17 from: #8
+Number of iterations: 37
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 38
+
+
+State: #8 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by conan rule: #18 from: #7
+Number of iterations: 39
+Number of iterations: 40
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #10 which descends from parent: #1 dominates child: #17
+
+
+State: #14 which descends from parent: #1 dominates child: #18
+Updated by conan rule: #9 from: #3
+Number of iterations: 41
+
+
+State: #8 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 42
+Updated by pathmax rule 2: #10 from: #20
+Number of iterations: 43
+Number of iterations: 44
+Number of iterations: 45
+Updated by pathmax rule 2: #11 from: #21
+Number of iterations: 46
+Updated by pathmax rule 2: #4 from: #20
+Updated by conan rule: #23 from: #11
+Number of iterations: 47
+Number of iterations: 48
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Updated by pathmax rule 2: #1 from: #12
+Number of iterations: 49
+
+
+State: #7 which descends from parent: #0 dominates child: #18
+
+
+State: #3 which descends from parent: #0 dominates child: #9
+Updated by pathmax rule 2: #0 from: #12
+Number of iterations: 50
+Updated by conan rule: #17 from: #0
+Number of iterations: 51
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 52
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #8 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 53
+Number of iterations: 54
+Number of iterations: 55
+[t=0.005998s, 13500 KB] f = 5, 24 evaluated, 11 expanded
+Number of iterations: 56
+Updated by pathmax rule 2: #12 from: #24
+Number of iterations: 57
+Updated by pathmax rule 2: #5 from: #24
+Number of iterations: 58
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Updated by conan rule: #13 from: #5
+Number of iterations: 59
+Number of iterations: 60
+Updated by pathmax rule 2: #14 from: #25
+Number of iterations: 61
+Updated by conan rule: #26 from: #14
+Number of iterations: 62
+Number of iterations: 63
+Number of iterations: 64
+Updated by pathmax rule 2: #15 from: #27
+Number of iterations: 65
+Number of iterations: 66
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Updated by pathmax rule 2: #2 from: #28
+Updated by pathmax rule 2: #16 from: #28
+Number of iterations: 67
+Updated by pathmax rule 2: #6 from: #25
+Number of iterations: 68
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Number of iterations: 69
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+Number of iterations: 70
+Number of iterations: 71
+Number of iterations: 72
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 73
+Updated by pathmax rule 2: #8 from: #30
+Updated by conan rule: #31 from: #19
+Number of iterations: 74
+Number of iterations: 75
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 76
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by conan rule: #9 from: #3
+Number of iterations: 77
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 78
+Number of iterations: 79
+Updated by pathmax rule 2: #20 from: #32
+Number of iterations: 80
+Updated by pathmax rule 2: #10 from: #32
+Updated by conan rule: #34 from: #20
+Number of iterations: 81
+Number of iterations: 82
+Number of iterations: 83
+Number of iterations: 84
+Number of iterations: 85
+Updated by pathmax rule 2: #21 from: #35
+Number of iterations: 86
+Updated by conan rule: #37 from: #21
+Number of iterations: 87
+Number of iterations: 88
+Number of iterations: 89
+Number of iterations: 90
+Updated by pathmax rule 2: #22 from: #38
+Number of iterations: 91
+Updated by pathmax rule 2: #11 from: #35
+Updated by conan rule: #35 from: #22
+Number of iterations: 92
+Number of iterations: 93
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by pathmax rule 2: #4 from: #32
+Updated by conan rule: #23 from: #11
+Number of iterations: 94
+Number of iterations: 95
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+Updated by pathmax rule 2: #1 from: #24
+Number of iterations: 96
+
+
+State: #5 which descends from parent: #0 dominates child: #13
+
+
+State: #19 which descends from parent: #0 dominates child: #31
+
+
+State: #3 which descends from parent: #0 dominates child: #9
+
+
+State: #7 which descends from parent: #0 dominates child: #18
+
+
+State: #11 which descends from parent: #0 dominates child: #23
+Updated by pathmax rule 2: #0 from: #24
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Number of iterations: 97
+Updated by conan rule: #17 from: #0
+Updated by conan rule: #30 from: #0
+Number of iterations: 98
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 99
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Number of iterations: 100
+Number of iterations: 101
+Updated by pathmax rule 2: #3 from: #17
+Updated by conan rule: #17 from: #8
+Number of iterations: 102
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #23 which descends from parent: #1 dominates child: #9
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #22 which descends from parent: #1 dominates child: #17
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+Updated by pathmax rule 1: #7 from: #3
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Number of iterations: 103
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 104
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #22 which descends from parent: #1 dominates child: #17
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #38 which descends from parent: #1 dominates child: #31
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Updated by pathmax rule 1: #7 from: #3
+Updated by conan rule: #9 from: #3
+Number of iterations: 105
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 106
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 107
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 108
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by conan rule: #18 from: #7
+Number of iterations: 109
+Number of iterations: 110
+[t=0.005998s, 13500 KB] f = 6, 39 evaluated, 19 expanded
+Number of iterations: 111
+Updated by pathmax rule 2: #24 from: #39
+Number of iterations: 112
+Updated by pathmax rule 2: #12 from: #39
+Number of iterations: 113
+Updated by pathmax rule 2: #5 from: #39
+Number of iterations: 114
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Updated by conan rule: #13 from: #5
+Number of iterations: 115
+Number of iterations: 116
+Number of iterations: 117
+Number of iterations: 118
+Updated by pathmax rule 2: #25 from: #42
+Number of iterations: 119
+Updated by pathmax rule 2: #14 from: #42
+Number of iterations: 120
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+Updated by conan rule: #26 from: #14
+Number of iterations: 121
+Number of iterations: 122
+Updated by pathmax rule 2: #27 from: #43
+Number of iterations: 123
+Updated by pathmax rule 2: #15 from: #43
+Number of iterations: 124
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+Number of iterations: 125
+Number of iterations: 126
+Number of iterations: 127
+Updated by pathmax rule 2: #28 from: #45
+Number of iterations: 128
+Updated by conan rule: #47 from: #28
+Number of iterations: 129
+Number of iterations: 130
+Number of iterations: 131
+Number of iterations: 132
+Updated by pathmax rule 2: #29 from: #44
+Number of iterations: 133
+Updated by pathmax rule 2: #16 from: #45
+Number of iterations: 134
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+Updated by pathmax rule 2: #6 from: #42
+
+
+State: #14 which descends from parent: #10 dominates child: #26
+Number of iterations: 135
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+
+
+State: #14 which descends from parent: #2 dominates child: #26
+Updated by pathmax rule 2: #2 from: #39
+Number of iterations: 136
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #20 which descends from parent: #1 dominates child: #13
+
+
+State: #28 which descends from parent: #1 dominates child: #26
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #30 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Number of iterations: 137
+Updated by pathmax rule 2: #32 from: #41
+Number of iterations: 138
+Number of iterations: 139
+Updated by pathmax rule 2: #33 from: #48
+Number of iterations: 140
+Updated by pathmax rule 2: #20 from: #41
+Updated by conan rule: #49 from: #33
+Number of iterations: 141
+Number of iterations: 142
+
+
+State: #33 which descends from parent: #10 dominates child: #34
+
+
+State: #14 which descends from parent: #10 dominates child: #26
+Updated by pathmax rule 2: #10 from: #41
+Updated by conan rule: #34 from: #20
+Number of iterations: 143
+Number of iterations: 144
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+
+
+State: #20 which descends from parent: #4 dominates child: #34
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+Updated by conan rule: #35 from: #10
+Number of iterations: 145
+Number of iterations: 146
+Number of iterations: 147
+Updated by pathmax rule 2: #36 from: #50
+Number of iterations: 148
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Updated by pathmax rule 2: #21 from: #50
+Updated by conan rule: #51 from: #36
+Number of iterations: 149
+Number of iterations: 150
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #22 which descends from parent: #11 dominates child: #35
+Updated by conan rule: #37 from: #21
+Number of iterations: 151
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Number of iterations: 152
+Number of iterations: 153
+Updated by pathmax rule 2: #38 from: #52
+Number of iterations: 154
+Updated by pathmax rule 2: #22 from: #52
+Updated by conan rule: #53 from: #38
+Number of iterations: 155
+Number of iterations: 156
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Updated by pathmax rule 2: #11 from: #50
+Number of iterations: 157
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+
+
+State: #48 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #50 which descends from parent: #4 dominates child: #35
+
+
+State: #29 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by pathmax rule 2: #4 from: #41
+Updated by conan rule: #23 from: #11
+Number of iterations: 158
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Number of iterations: 159
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #20 which descends from parent: #1 dominates child: #34
+
+
+State: #48 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #45 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #30 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Updated by pathmax rule 2: #1 from: #39
+Number of iterations: 160
+
+
+State: #5 which descends from parent: #0 dominates child: #13
+
+
+State: #14 which descends from parent: #0 dominates child: #26
+
+
+State: #20 which descends from parent: #0 dominates child: #34
+
+
+State: #48 which descends from parent: #0 dominates child: #50
+
+
+State: #36 which descends from parent: #0 dominates child: #51
+
+
+State: #51 which descends from parent: #0 dominates child: #37
+
+
+State: #50 which descends from parent: #0 dominates child: #35
+
+
+State: #29 which descends from parent: #0 dominates child: #52
+
+
+State: #38 which descends from parent: #0 dominates child: #53
+
+
+State: #11 which descends from parent: #0 dominates child: #23
+
+
+State: #19 which descends from parent: #0 dominates child: #31
+
+
+State: #7 which descends from parent: #0 dominates child: #18
+
+
+State: #3 which descends from parent: #0 dominates child: #9
+Updated by pathmax rule 2: #0 from: #39
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+
+
+State: #48 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #50 which descends from parent: #4 dominates child: #35
+
+
+State: #29 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Number of iterations: 161
+Updated by conan rule: #30 from: #0
+Number of iterations: 162
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 163
+Updated by pathmax rule 2: #8 from: #30
+Updated by conan rule: #31 from: #19
+Number of iterations: 164
+Number of iterations: 165
+Updated by pathmax rule 2: #3 from: #17
+Updated by conan rule: #17 from: #8
+Number of iterations: 166
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 167
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by conan rule: #18 from: #7
+Number of iterations: 168
+Number of iterations: 169
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #20 which descends from parent: #1 dominates child: #34
+
+
+State: #48 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #45 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #30 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by conan rule: #9 from: #3
+Number of iterations: 170
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 171
+[t=0.005998s, 13500 KB] f = 7, 54 evaluated, 28 expanded
+Number of iterations: 172
+Updated by pathmax rule 2: #39 from: #54
+Number of iterations: 173
+Updated by conan rule: #55 from: #39
+Number of iterations: 174
+Number of iterations: 175
+Number of iterations: 176
+Updated by pathmax rule 2: #40 from: #56
+Number of iterations: 177
+Updated by conan rule: #58 from: #40
+Number of iterations: 178
+Number of iterations: 179
+Number of iterations: 180
+Number of iterations: 181
+
+
+State: #41 which descends from parent: #12 dominates child: #56
+Updated by pathmax rule 2: #12 from: #59
+Updated by pathmax rule 2: #41 from: #59
+Updated by conan rule: #56 from: #24
+Number of iterations: 182
+Number of iterations: 183
+Updated by pathmax rule 2: #24 from: #54
+Updated by pathmax rule 2: #32 from: #59
+Number of iterations: 184
+Number of iterations: 185
+Updated by conan rule: #56 from: #24
+Number of iterations: 186
+Number of iterations: 187
+Updated by pathmax rule 2: #5 from: #54
+Number of iterations: 188
+
+
+State: #14 which descends from parent: #2 dominates child: #26
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Updated by conan rule: #13 from: #5
+Number of iterations: 189
+Number of iterations: 190
+Number of iterations: 191
+Number of iterations: 192
+Updated by pathmax rule 2: #42 from: #57
+Number of iterations: 193
+Updated by pathmax rule 2: #25 from: #57
+Number of iterations: 194
+Updated by pathmax rule 2: #14 from: #57
+Number of iterations: 195
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+Updated by conan rule: #26 from: #14
+Number of iterations: 196
+Number of iterations: 197
+Number of iterations: 198
+Updated by pathmax rule 2: #43 from: #62
+Number of iterations: 199
+Number of iterations: 200
+
+
+State: #19 which descends from parent: #15 dominates child: #31
+Updated by pathmax rule 2: #15 from: #63
+Updated by pathmax rule 2: #44 from: #63
+Number of iterations: 201
+Updated by pathmax rule 2: #27 from: #62
+Updated by pathmax rule 2: #29 from: #63
+Number of iterations: 202
+Updated by conan rule: #52 from: #29
+Number of iterations: 203
+Updated by pathmax rule 2: #38 from: #52
+Number of iterations: 204
+
+
+State: #19 which descends from parent: #15 dominates child: #31
+Number of iterations: 205
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+
+
+State: #45 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+Number of iterations: 206
+
+
+State: #38 which descends from parent: #22 dominates child: #53
+Updated by pathmax rule 2: #22 from: #52
+Updated by pathmax rule 1: #53 from: #38
+Updated by conan rule: #53 from: #38
+Number of iterations: 207
+Number of iterations: 208
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Updated by conan rule: #35 from: #22
+Number of iterations: 209
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Number of iterations: 210
+Number of iterations: 211
+Updated by pathmax rule 2: #45 from: #61
+Number of iterations: 212
+Number of iterations: 213
+Updated by pathmax rule 2: #46 from: #64
+Number of iterations: 214
+Updated by pathmax rule 2: #28 from: #61
+Updated by conan rule: #65 from: #46
+Number of iterations: 215
+Number of iterations: 216
+
+
+State: #46 which descends from parent: #16 dominates child: #47
+Updated by pathmax rule 2: #16 from: #61
+Updated by conan rule: #47 from: #28
+Number of iterations: 217
+Number of iterations: 218
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+
+
+State: #25 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+
+
+State: #46 which descends from parent: #6 dominates child: #47
+Updated by pathmax rule 2: #6 from: #57
+
+
+State: #33 which descends from parent: #10 dominates child: #34
+
+
+State: #46 which descends from parent: #10 dominates child: #47
+
+
+State: #14 which descends from parent: #10 dominates child: #26
+
+
+State: #45 which descends from parent: #10 dominates child: #30
+
+
+State: #19 which descends from parent: #10 dominates child: #31
+Updated by conan rule: #56 from: #16
+Number of iterations: 219
+Number of iterations: 220
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+
+
+State: #14 which descends from parent: #2 dominates child: #26
+
+
+State: #15 which descends from parent: #2 dominates child: #30
+
+
+State: #19 which descends from parent: #2 dominates child: #31
+
+
+State: #46 which descends from parent: #2 dominates child: #47
+Updated by pathmax rule 2: #2 from: #54
+
+
+State: #46 which descends from parent: #16 dominates child: #47
+Updated by conan rule: #56 from: #6
+Number of iterations: 221
+Number of iterations: 222
+
+
+State: #33 which descends from parent: #1 dominates child: #34
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #45 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #48 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #45 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #34 which descends from parent: #1 dominates child: #13
+
+
+State: #28 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #23 which descends from parent: #1 dominates child: #9
+Number of iterations: 223
+Number of iterations: 224
+Updated by pathmax rule 2: #48 from: #66
+Number of iterations: 225
+Updated by pathmax rule 2: #33 from: #66
+Updated by conan rule: #50 from: #48
+Number of iterations: 226
+Updated by pathmax rule 2: #36 from: #50
+Number of iterations: 227
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Updated by pathmax rule 2: #21 from: #50
+Updated by conan rule: #51 from: #36
+Number of iterations: 228
+Number of iterations: 229
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Updated by pathmax rule 2: #11 from: #50
+Updated by conan rule: #37 from: #21
+Number of iterations: 230
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Number of iterations: 231
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #47
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+
+
+State: #45 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #48 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #50 which descends from parent: #4 dominates child: #35
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+Updated by pathmax rule 2: #4 from: #59
+Updated by conan rule: #23 from: #11
+Number of iterations: 232
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Number of iterations: 233
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #48 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #29 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #26 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Updated by pathmax rule 2: #1 from: #54
+Updated by pathmax rule 1: #10 from: #4
+Updated by conan rule: #56 from: #4
+Number of iterations: 234
+Number of iterations: 235
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #47
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+
+
+State: #45 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #48 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #50 which descends from parent: #4 dominates child: #35
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by pathmax rule 1: #20 from: #10
+Number of iterations: 236
+
+
+State: #33 which descends from parent: #10 dominates child: #49
+
+
+State: #33 which descends from parent: #10 dominates child: #34
+
+
+State: #46 which descends from parent: #10 dominates child: #47
+
+
+State: #14 which descends from parent: #10 dominates child: #26
+
+
+State: #45 which descends from parent: #10 dominates child: #30
+
+
+State: #19 which descends from parent: #10 dominates child: #31
+Updated by conan rule: #34 from: #20
+Number of iterations: 237
+
+
+State: #33 which descends from parent: #20 dominates child: #49
+Number of iterations: 238
+
+
+State: #5 which descends from parent: #0 dominates child: #13
+
+
+State: #14 which descends from parent: #0 dominates child: #26
+
+
+State: #19 which descends from parent: #0 dominates child: #31
+
+
+State: #46 which descends from parent: #0 dominates child: #47
+
+
+State: #33 which descends from parent: #0 dominates child: #49
+
+
+State: #49 which descends from parent: #0 dominates child: #34
+
+
+State: #48 which descends from parent: #0 dominates child: #50
+
+
+State: #36 which descends from parent: #0 dominates child: #51
+
+
+State: #51 which descends from parent: #0 dominates child: #37
+
+
+State: #50 which descends from parent: #0 dominates child: #35
+
+
+State: #29 which descends from parent: #0 dominates child: #52
+
+
+State: #38 which descends from parent: #0 dominates child: #53
+
+
+State: #11 which descends from parent: #0 dominates child: #23
+
+
+State: #53 which descends from parent: #0 dominates child: #31
+
+
+State: #37 which descends from parent: #0 dominates child: #18
+
+
+State: #3 which descends from parent: #0 dominates child: #9
+Updated by pathmax rule 2: #0 from: #54
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #47
+
+
+State: #14 which descends from parent: #4 dominates child: #26
+
+
+State: #45 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #48 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #50 which descends from parent: #4 dominates child: #35
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by conan rule: #56 from: #1
+Number of iterations: 239
+Number of iterations: 240
+Updated by conan rule: #30 from: #0
+Number of iterations: 241
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 242
+Updated by pathmax rule 2: #8 from: #30
+Updated by conan rule: #31 from: #19
+Number of iterations: 243
+Number of iterations: 244
+Updated by pathmax rule 2: #3 from: #17
+Updated by conan rule: #17 from: #8
+Number of iterations: 245
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 246
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by conan rule: #18 from: #7
+Number of iterations: 247
+Number of iterations: 248
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #48 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #29 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #23 which descends from parent: #1 dominates child: #9
+
+
+State: #15 which descends from parent: #1 dominates child: #17
+
+
+State: #26 which descends from parent: #1 dominates child: #18
+Updated by conan rule: #9 from: #3
+Number of iterations: 249
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 250
+
+
+State: #33 which descends from parent: #20 dominates child: #49
+Updated by conan rule: #49 from: #33
+Number of iterations: 251
+[t=0.006998s, 13500 KB] f = 8, 67 evaluated, 37 expanded
+Number of iterations: 252
+Updated by pathmax rule 2: #54 from: #67
+Number of iterations: 253
+Updated by pathmax rule 2: #39 from: #67
+Number of iterations: 254
+
+
+State: #39 which descends from parent: #24 dominates child: #55
+Updated by conan rule: #55 from: #39
+Number of iterations: 255
+Number of iterations: 256
+Number of iterations: 257
+Number of iterations: 258
+Updated by pathmax rule 2: #57 from: #70
+Number of iterations: 259
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Updated by pathmax rule 2: #40 from: #70
+Number of iterations: 260
+
+
+State: #39 which descends from parent: #24 dominates child: #55
+
+
+State: #40 which descends from parent: #24 dominates child: #58
+Updated by conan rule: #58 from: #40
+Updated by conan rule: #69 from: #40
+Updated by conan rule: #71 from: #40
+Number of iterations: 261
+Number of iterations: 262
+Number of iterations: 263
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 264
+Number of iterations: 265
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 266
+Updated by pathmax rule 2: #59 from: #72
+Number of iterations: 267
+Updated by conan rule: #74 from: #59
+Number of iterations: 268
+Number of iterations: 269
+Number of iterations: 270
+Number of iterations: 271
+Updated by pathmax rule 2: #60 from: #75
+Number of iterations: 272
+Updated by pathmax rule 2: #41 from: #72
+Updated by conan rule: #77 from: #60
+Number of iterations: 273
+Number of iterations: 274
+
+
+State: #39 which descends from parent: #24 dominates child: #55
+
+
+State: #40 which descends from parent: #24 dominates child: #58
+
+
+State: #41 which descends from parent: #24 dominates child: #75
+Updated by pathmax rule 2: #24 from: #67
+
+
+State: #41 which descends from parent: #32 dominates child: #75
+
+
+State: #39 which descends from parent: #32 dominates child: #55
+
+
+State: #60 which descends from parent: #32 dominates child: #58
+
+
+State: #70 which descends from parent: #32 dominates child: #56
+Updated by pathmax rule 2: #32 from: #72
+Updated by conan rule: #75 from: #41
+Number of iterations: 275
+
+
+State: #33 which descends from parent: #20 dominates child: #49
+
+
+State: #59 which descends from parent: #20 dominates child: #55
+
+
+State: #40 which descends from parent: #20 dominates child: #58
+
+
+State: #66 which descends from parent: #20 dominates child: #56
+Number of iterations: 276
+
+
+State: #39 which descends from parent: #12 dominates child: #55
+
+
+State: #40 which descends from parent: #12 dominates child: #58
+
+
+State: #70 which descends from parent: #12 dominates child: #56
+Updated by pathmax rule 2: #12 from: #67
+Number of iterations: 277
+
+
+State: #39 which descends from parent: #5 dominates child: #55
+
+
+State: #40 which descends from parent: #5 dominates child: #58
+
+
+State: #24 which descends from parent: #5 dominates child: #56
+Updated by pathmax rule 2: #5 from: #67
+Number of iterations: 278
+
+
+State: #14 which descends from parent: #2 dominates child: #26
+
+
+State: #25 which descends from parent: #2 dominates child: #30
+
+
+State: #19 which descends from parent: #2 dominates child: #31
+
+
+State: #46 which descends from parent: #2 dominates child: #47
+
+
+State: #39 which descends from parent: #2 dominates child: #55
+
+
+State: #42 which descends from parent: #2 dominates child: #70
+
+
+State: #40 which descends from parent: #2 dominates child: #71
+
+
+State: #7 which descends from parent: #2 dominates child: #18
+
+
+State: #40 which descends from parent: #2 dominates child: #58
+
+
+State: #70 which descends from parent: #2 dominates child: #56
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+Updated by conan rule: #13 from: #5
+Number of iterations: 279
+
+
+State: #39 which descends from parent: #5 dominates child: #55
+
+
+State: #40 which descends from parent: #5 dominates child: #58
+
+
+State: #24 which descends from parent: #5 dominates child: #56
+Number of iterations: 280
+Number of iterations: 281
+Number of iterations: 282
+
+
+State: #61 which descends from parent: #25 dominates child: #70
+Updated by pathmax rule 2: #25 from: #76
+Updated by pathmax rule 2: #61 from: #76
+Updated by conan rule: #70 from: #42
+Number of iterations: 283
+Updated by pathmax rule 2: #57 from: #70
+Number of iterations: 284
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Updated by pathmax rule 2: #40 from: #70
+Updated by pathmax rule 2: #42 from: #76
+Number of iterations: 285
+
+
+State: #61 which descends from parent: #25 dominates child: #70
+Updated by conan rule: #70 from: #42
+Number of iterations: 286
+Updated by pathmax rule 2: #57 from: #70
+Number of iterations: 287
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Updated by pathmax rule 2: #40 from: #70
+Number of iterations: 288
+
+
+State: #39 which descends from parent: #24 dominates child: #55
+
+
+State: #40 which descends from parent: #24 dominates child: #58
+Updated by pathmax rule 1: #58 from: #40
+Updated by conan rule: #58 from: #40
+Updated by conan rule: #69 from: #40
+Updated by conan rule: #71 from: #40
+Number of iterations: 289
+Number of iterations: 290
+Number of iterations: 291
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 292
+Updated by pathmax rule 2: #45 from: #76
+Number of iterations: 293
+Number of iterations: 294
+
+
+State: #61 which descends from parent: #14 dominates child: #70
+Updated by pathmax rule 2: #14 from: #76
+Number of iterations: 295
+
+
+State: #15 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+
+
+State: #28 which descends from parent: #6 dominates child: #47
+
+
+State: #42 which descends from parent: #6 dominates child: #70
+
+
+State: #19 which descends from parent: #6 dominates child: #71
+
+
+State: #25 which descends from parent: #6 dominates child: #17
+
+
+State: #7 which descends from parent: #6 dominates child: #18
+
+
+State: #47 which descends from parent: #6 dominates child: #26
+Updated by conan rule: #26 from: #14
+Number of iterations: 296
+
+
+State: #61 which descends from parent: #14 dominates child: #70
+Number of iterations: 297
+Number of iterations: 298
+Updated by pathmax rule 2: #62 from: #78
+Number of iterations: 299
+Updated by pathmax rule 2: #43 from: #78
+Number of iterations: 300
+Number of iterations: 301
+Number of iterations: 302
+
+
+State: #61 which descends from parent: #14 dominates child: #70
+Number of iterations: 303
+Updated by pathmax rule 2: #63 from: #79
+Number of iterations: 304
+Updated by pathmax rule 2: #44 from: #79
+Number of iterations: 305
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+Updated by pathmax rule 2: #27 from: #78
+
+
+State: #38 which descends from parent: #29 dominates child: #53
+
+
+State: #38 which descends from parent: #29 dominates child: #78
+
+
+State: #42 which descends from parent: #29 dominates child: #70
+
+
+State: #53 which descends from parent: #29 dominates child: #71
+
+
+State: #7 which descends from parent: #29 dominates child: #18
+
+
+State: #19 which descends from parent: #29 dominates child: #31
+Updated by pathmax rule 2: #29 from: #79
+Number of iterations: 306
+
+
+State: #46 which descends from parent: #16 dominates child: #47
+
+
+State: #29 which descends from parent: #16 dominates child: #52
+
+
+State: #38 which descends from parent: #16 dominates child: #53
+
+
+State: #53 which descends from parent: #16 dominates child: #78
+
+
+State: #42 which descends from parent: #16 dominates child: #70
+
+
+State: #78 which descends from parent: #16 dominates child: #71
+
+
+State: #25 which descends from parent: #16 dominates child: #17
+
+
+State: #7 which descends from parent: #16 dominates child: #18
+
+
+State: #25 which descends from parent: #16 dominates child: #30
+
+
+State: #38 which descends from parent: #16 dominates child: #31
+Updated by conan rule: #52 from: #29
+Number of iterations: 307
+Updated by pathmax rule 2: #38 from: #52
+Number of iterations: 308
+Updated by pathmax rule 2: #22 from: #52
+Updated by conan rule: #53 from: #38
+Updated by conan rule: #78 from: #38
+Number of iterations: 309
+Number of iterations: 310
+Number of iterations: 311
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Updated by conan rule: #35 from: #22
+Number of iterations: 312
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Number of iterations: 313
+
+
+State: #19 which descends from parent: #15 dominates child: #31
+Updated by pathmax rule 2: #15 from: #79
+Number of iterations: 314
+
+
+State: #46 which descends from parent: #6 dominates child: #47
+
+
+State: #42 which descends from parent: #6 dominates child: #70
+
+
+State: #25 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+
+
+State: #45 which descends from parent: #6 dominates child: #52
+
+
+State: #38 which descends from parent: #6 dominates child: #53
+
+
+State: #42 which descends from parent: #6 dominates child: #70
+
+
+State: #53 which descends from parent: #6 dominates child: #71
+
+
+State: #76 which descends from parent: #6 dominates child: #17
+
+
+State: #7 which descends from parent: #6 dominates child: #18
+
+
+State: #47 which descends from parent: #6 dominates child: #26
+
+
+State: #19 which descends from parent: #6 dominates child: #78
+
+
+State: #15 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+Number of iterations: 315
+Updated by pathmax rule 2: #64 from: #80
+Number of iterations: 316
+Updated by pathmax rule 2: #46 from: #80
+Number of iterations: 317
+
+
+State: #46 which descends from parent: #28 dominates child: #65
+Updated by pathmax rule 2: #28 from: #76
+Updated by conan rule: #65 from: #46
+Number of iterations: 318
+Number of iterations: 319
+
+
+State: #46 which descends from parent: #16 dominates child: #65
+
+
+State: #65 which descends from parent: #16 dominates child: #47
+
+
+State: #42 which descends from parent: #16 dominates child: #70
+
+
+State: #25 which descends from parent: #16 dominates child: #30
+
+
+State: #19 which descends from parent: #16 dominates child: #31
+
+
+State: #29 which descends from parent: #16 dominates child: #52
+
+
+State: #38 which descends from parent: #16 dominates child: #53
+Updated by pathmax rule 2: #16 from: #76
+Updated by conan rule: #47 from: #28
+Number of iterations: 320
+
+
+State: #46 which descends from parent: #28 dominates child: #65
+Number of iterations: 321
+
+
+State: #61 which descends from parent: #6 dominates child: #70
+
+
+State: #14 which descends from parent: #6 dominates child: #26
+
+
+State: #52 which descends from parent: #6 dominates child: #30
+
+
+State: #19 which descends from parent: #6 dominates child: #31
+
+
+State: #46 which descends from parent: #6 dominates child: #65
+
+
+State: #28 which descends from parent: #6 dominates child: #47
+Updated by pathmax rule 2: #6 from: #76
+
+
+State: #33 which descends from parent: #10 dominates child: #49
+
+
+State: #39 which descends from parent: #10 dominates child: #55
+
+
+State: #40 which descends from parent: #10 dominates child: #58
+
+
+State: #66 which descends from parent: #10 dominates child: #56
+
+
+State: #49 which descends from parent: #10 dominates child: #34
+
+
+State: #46 which descends from parent: #10 dominates child: #65
+
+
+State: #65 which descends from parent: #10 dominates child: #47
+
+
+State: #60 which descends from parent: #10 dominates child: #78
+
+
+State: #25 which descends from parent: #10 dominates child: #30
+
+
+State: #19 which descends from parent: #10 dominates child: #31
+
+
+State: #29 which descends from parent: #10 dominates child: #52
+
+
+State: #38 which descends from parent: #10 dominates child: #53
+
+
+State: #14 which descends from parent: #10 dominates child: #26
+Updated by conan rule: #75 from: #16
+Number of iterations: 322
+Number of iterations: 323
+
+
+State: #39 which descends from parent: #2 dominates child: #55
+
+
+State: #40 which descends from parent: #2 dominates child: #58
+
+
+State: #70 which descends from parent: #2 dominates child: #56
+
+
+State: #5 which descends from parent: #2 dominates child: #13
+
+
+State: #14 which descends from parent: #2 dominates child: #26
+
+
+State: #52 which descends from parent: #2 dominates child: #30
+
+
+State: #19 which descends from parent: #2 dominates child: #31
+
+
+State: #46 which descends from parent: #2 dominates child: #65
+
+
+State: #46 which descends from parent: #2 dominates child: #47
+Updated by pathmax rule 2: #2 from: #67
+
+
+State: #46 which descends from parent: #16 dominates child: #65
+
+
+State: #65 which descends from parent: #16 dominates child: #47
+
+
+State: #42 which descends from parent: #16 dominates child: #70
+
+
+State: #25 which descends from parent: #16 dominates child: #30
+
+
+State: #19 which descends from parent: #16 dominates child: #31
+
+
+State: #29 which descends from parent: #16 dominates child: #52
+
+
+State: #38 which descends from parent: #16 dominates child: #53
+Number of iterations: 324
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #65 which descends from parent: #1 dominates child: #47
+
+
+State: #60 which descends from parent: #1 dominates child: #78
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #29 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #45 which descends from parent: #1 dominates child: #35
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #45 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #42 which descends from parent: #1 dominates child: #70
+
+
+State: #23 which descends from parent: #1 dominates child: #71
+
+
+State: #12 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #28 which descends from parent: #1 dominates child: #26
+
+
+State: #58 which descends from parent: #1 dominates child: #78
+
+
+State: #45 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #45 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Number of iterations: 325
+Updated by pathmax rule 2: #66 from: #73
+Number of iterations: 326
+Updated by pathmax rule 2: #48 from: #73
+Number of iterations: 327
+Updated by pathmax rule 2: #33 from: #73
+Updated by conan rule: #50 from: #48
+Number of iterations: 328
+Updated by pathmax rule 2: #36 from: #50
+Number of iterations: 329
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Updated by pathmax rule 2: #21 from: #50
+Updated by conan rule: #51 from: #36
+Number of iterations: 330
+Number of iterations: 331
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Updated by pathmax rule 2: #11 from: #50
+Updated by conan rule: #37 from: #21
+Number of iterations: 332
+
+
+State: #50 which descends from parent: #21 dominates child: #35
+Number of iterations: 333
+
+
+State: #59 which descends from parent: #4 dominates child: #55
+
+
+State: #40 which descends from parent: #4 dominates child: #58
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #65
+
+
+State: #65 which descends from parent: #4 dominates child: #47
+
+
+State: #60 which descends from parent: #4 dominates child: #78
+
+
+State: #25 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #29 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #47 which descends from parent: #4 dominates child: #26
+
+
+State: #64 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #45 which descends from parent: #4 dominates child: #35
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+Updated by pathmax rule 2: #4 from: #72
+Updated by conan rule: #23 from: #11
+Updated by conan rule: #69 from: #11
+Updated by conan rule: #71 from: #11
+Number of iterations: 334
+Number of iterations: 335
+Number of iterations: 336
+
+
+State: #36 which descends from parent: #11 dominates child: #37
+
+
+State: #50 which descends from parent: #11 dominates child: #35
+Number of iterations: 337
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #65 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+Updated by pathmax rule 2: #1 from: #67
+Updated by pathmax rule 1: #10 from: #4
+Updated by conan rule: #75 from: #4
+Number of iterations: 338
+Number of iterations: 339
+
+
+State: #59 which descends from parent: #4 dominates child: #55
+
+
+State: #40 which descends from parent: #4 dominates child: #58
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #65
+
+
+State: #65 which descends from parent: #4 dominates child: #47
+
+
+State: #60 which descends from parent: #4 dominates child: #78
+
+
+State: #25 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #29 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #47 which descends from parent: #4 dominates child: #26
+
+
+State: #64 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #45 which descends from parent: #4 dominates child: #35
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by pathmax rule 1: #20 from: #10
+Number of iterations: 340
+
+
+State: #39 which descends from parent: #10 dominates child: #55
+
+
+State: #40 which descends from parent: #10 dominates child: #58
+
+
+State: #70 which descends from parent: #10 dominates child: #56
+
+
+State: #33 which descends from parent: #10 dominates child: #49
+
+
+State: #33 which descends from parent: #10 dominates child: #34
+
+
+State: #46 which descends from parent: #10 dominates child: #65
+
+
+State: #65 which descends from parent: #10 dominates child: #47
+
+
+State: #60 which descends from parent: #10 dominates child: #78
+
+
+State: #25 which descends from parent: #10 dominates child: #30
+
+
+State: #19 which descends from parent: #10 dominates child: #31
+
+
+State: #29 which descends from parent: #10 dominates child: #52
+
+
+State: #38 which descends from parent: #10 dominates child: #53
+
+
+State: #47 which descends from parent: #10 dominates child: #26
+Updated by conan rule: #34 from: #20
+Number of iterations: 341
+
+
+State: #39 which descends from parent: #20 dominates child: #55
+
+
+State: #60 which descends from parent: #20 dominates child: #58
+
+
+State: #70 which descends from parent: #20 dominates child: #56
+
+
+State: #33 which descends from parent: #20 dominates child: #49
+Number of iterations: 342
+
+
+State: #39 which descends from parent: #0 dominates child: #55
+
+
+State: #40 which descends from parent: #0 dominates child: #58
+
+
+State: #70 which descends from parent: #0 dominates child: #56
+
+
+State: #5 which descends from parent: #0 dominates child: #13
+
+
+State: #14 which descends from parent: #0 dominates child: #26
+
+
+State: #19 which descends from parent: #0 dominates child: #31
+
+
+State: #46 which descends from parent: #0 dominates child: #65
+
+
+State: #46 which descends from parent: #0 dominates child: #47
+
+
+State: #33 which descends from parent: #0 dominates child: #49
+
+
+State: #49 which descends from parent: #0 dominates child: #34
+
+
+State: #64 which descends from parent: #0 dominates child: #50
+
+
+State: #36 which descends from parent: #0 dominates child: #51
+
+
+State: #51 which descends from parent: #0 dominates child: #37
+
+
+State: #50 which descends from parent: #0 dominates child: #35
+
+
+State: #64 which descends from parent: #0 dominates child: #52
+
+
+State: #38 which descends from parent: #0 dominates child: #53
+
+
+State: #11 which descends from parent: #0 dominates child: #23
+
+
+State: #53 which descends from parent: #0 dominates child: #31
+
+
+State: #7 which descends from parent: #0 dominates child: #18
+
+
+State: #3 which descends from parent: #0 dominates child: #9
+Updated by pathmax rule 2: #0 from: #67
+
+
+State: #59 which descends from parent: #4 dominates child: #55
+
+
+State: #40 which descends from parent: #4 dominates child: #58
+
+
+State: #33 which descends from parent: #4 dominates child: #49
+
+
+State: #33 which descends from parent: #4 dominates child: #34
+
+
+State: #46 which descends from parent: #4 dominates child: #65
+
+
+State: #65 which descends from parent: #4 dominates child: #47
+
+
+State: #60 which descends from parent: #4 dominates child: #78
+
+
+State: #25 which descends from parent: #4 dominates child: #30
+
+
+State: #19 which descends from parent: #4 dominates child: #31
+
+
+State: #29 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #47 which descends from parent: #4 dominates child: #26
+
+
+State: #64 which descends from parent: #4 dominates child: #50
+
+
+State: #36 which descends from parent: #4 dominates child: #51
+
+
+State: #51 which descends from parent: #4 dominates child: #37
+
+
+State: #45 which descends from parent: #4 dominates child: #35
+
+
+State: #45 which descends from parent: #4 dominates child: #52
+
+
+State: #38 which descends from parent: #4 dominates child: #53
+
+
+State: #11 which descends from parent: #4 dominates child: #23
+Updated by conan rule: #56 from: #1
+Number of iterations: 343
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 344
+Updated by conan rule: #30 from: #0
+Number of iterations: 345
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 346
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #69 from: #19
+Updated by conan rule: #71 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 347
+Number of iterations: 348
+Number of iterations: 349
+Number of iterations: 350
+Number of iterations: 351
+Updated by pathmax rule 2: #3 from: #17
+Updated by conan rule: #17 from: #8
+Number of iterations: 352
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 353
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by conan rule: #18 from: #7
+Number of iterations: 354
+Number of iterations: 355
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #65 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #15 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 356
+Number of iterations: 357
+Number of iterations: 358
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Number of iterations: 359
+
+
+State: #39 which descends from parent: #20 dominates child: #55
+
+
+State: #60 which descends from parent: #20 dominates child: #58
+
+
+State: #70 which descends from parent: #20 dominates child: #56
+
+
+State: #33 which descends from parent: #20 dominates child: #49
+Updated by conan rule: #49 from: #33
+Number of iterations: 360
+Number of iterations: 361
+[t=0.006998s, 13500 KB] f = 9, 82 evaluated, 46 expanded
+Number of iterations: 362
+Updated by pathmax rule 2: #67 from: #30
+Number of iterations: 363
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 364
+Number of iterations: 365
+Number of iterations: 366
+Updated by pathmax rule 2: #68 from: #83
+Number of iterations: 367
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 368
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 369
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 370
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 371
+Number of iterations: 372
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 373
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 374
+Updated by conan rule: #75 from: #83
+Number of iterations: 375
+Number of iterations: 376
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 377
+Number of iterations: 378
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 379
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 380
+Number of iterations: 381
+Number of iterations: 382
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 383
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 384
+Number of iterations: 385
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 386
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 387
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 388
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 389
+Number of iterations: 390
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 391
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 392
+Updated by conan rule: #75 from: #83
+Number of iterations: 393
+Number of iterations: 394
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 395
+Number of iterations: 396
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 397
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 398
+Number of iterations: 399
+Number of iterations: 400
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 401
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 402
+Number of iterations: 403
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 404
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 405
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 406
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 407
+Number of iterations: 408
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 409
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 410
+Updated by conan rule: #75 from: #83
+Number of iterations: 411
+Number of iterations: 412
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 413
+Number of iterations: 414
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 415
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 416
+Number of iterations: 417
+Number of iterations: 418
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 419
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 420
+Number of iterations: 421
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 422
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 423
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 424
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 425
+Number of iterations: 426
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 427
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 428
+Updated by conan rule: #75 from: #83
+Number of iterations: 429
+Number of iterations: 430
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 431
+Number of iterations: 432
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 433
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 434
+Number of iterations: 435
+Number of iterations: 436
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 437
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 438
+Number of iterations: 439
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 440
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 441
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 442
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 443
+Number of iterations: 444
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 445
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 446
+Updated by conan rule: #75 from: #83
+Number of iterations: 447
+Number of iterations: 448
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 449
+Number of iterations: 450
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 451
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 452
+Number of iterations: 453
+Number of iterations: 454
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 455
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 456
+Number of iterations: 457
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 458
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 459
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 460
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 461
+Number of iterations: 462
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 463
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 464
+Updated by conan rule: #75 from: #83
+Number of iterations: 465
+Number of iterations: 466
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 467
+Number of iterations: 468
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 469
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 470
+Number of iterations: 471
+Number of iterations: 472
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 473
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 474
+Number of iterations: 475
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 476
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 477
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 478
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 479
+Number of iterations: 480
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 481
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 482
+Updated by conan rule: #75 from: #83
+Number of iterations: 483
+Number of iterations: 484
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 485
+Number of iterations: 486
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 487
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 488
+Number of iterations: 489
+Number of iterations: 490
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 491
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 492
+Number of iterations: 493
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 494
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 495
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 496
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 497
+Number of iterations: 498
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 499
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 500
+Updated by conan rule: #75 from: #83
+Number of iterations: 501
+Number of iterations: 502
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 503
+Number of iterations: 504
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 505
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 506
+Number of iterations: 507
+Number of iterations: 508
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 509
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 510
+Number of iterations: 511
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 512
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 513
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 514
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 515
+Number of iterations: 516
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 517
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 518
+Updated by conan rule: #75 from: #83
+Number of iterations: 519
+Number of iterations: 520
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 521
+Number of iterations: 522
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 523
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 524
+Number of iterations: 525
+Number of iterations: 526
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 527
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 528
+Number of iterations: 529
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 530
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 531
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 532
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 533
+Number of iterations: 534
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 535
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 536
+Updated by conan rule: #75 from: #83
+Number of iterations: 537
+Number of iterations: 538
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 539
+Number of iterations: 540
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 541
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 542
+Number of iterations: 543
+Number of iterations: 544
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 545
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 546
+Number of iterations: 547
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 548
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 549
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 550
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 551
+Number of iterations: 552
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 553
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 554
+Updated by conan rule: #75 from: #83
+Number of iterations: 555
+Number of iterations: 556
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 557
+Number of iterations: 558
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 559
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 560
+Number of iterations: 561
+Number of iterations: 562
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 563
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 564
+Number of iterations: 565
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 566
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 567
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 568
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 569
+Number of iterations: 570
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 571
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 572
+Updated by conan rule: #75 from: #83
+Number of iterations: 573
+Number of iterations: 574
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 575
+Number of iterations: 576
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 577
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 578
+Number of iterations: 579
+Number of iterations: 580
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 581
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 582
+Number of iterations: 583
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 584
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 585
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 586
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 587
+Number of iterations: 588
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 589
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 590
+Updated by conan rule: #75 from: #83
+Number of iterations: 591
+Number of iterations: 592
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 593
+Number of iterations: 594
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 595
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 596
+Number of iterations: 597
+Number of iterations: 598
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 599
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 600
+Number of iterations: 601
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 602
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 603
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 604
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 605
+Number of iterations: 606
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 607
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 608
+Updated by conan rule: #75 from: #83
+Number of iterations: 609
+Number of iterations: 610
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 611
+Number of iterations: 612
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 613
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 614
+Number of iterations: 615
+Number of iterations: 616
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 617
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 618
+Number of iterations: 619
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 620
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 621
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 622
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 623
+Number of iterations: 624
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 625
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 626
+Updated by conan rule: #75 from: #83
+Number of iterations: 627
+Number of iterations: 628
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 629
+Number of iterations: 630
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 631
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 632
+Number of iterations: 633
+Number of iterations: 634
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 635
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 636
+Number of iterations: 637
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 638
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 639
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 640
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 641
+Number of iterations: 642
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 643
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 644
+Updated by conan rule: #75 from: #83
+Number of iterations: 645
+Number of iterations: 646
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 647
+Number of iterations: 648
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 649
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 650
+Number of iterations: 651
+Number of iterations: 652
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 653
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 654
+Number of iterations: 655
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 656
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 657
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 658
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 659
+Number of iterations: 660
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 661
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 662
+Updated by conan rule: #75 from: #83
+Number of iterations: 663
+Number of iterations: 664
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 665
+Number of iterations: 666
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 667
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 668
+Number of iterations: 669
+Number of iterations: 670
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 671
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 672
+Number of iterations: 673
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 674
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 675
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 676
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 677
+Number of iterations: 678
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 679
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 680
+Updated by conan rule: #75 from: #83
+Number of iterations: 681
+Number of iterations: 682
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 683
+Number of iterations: 684
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 685
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 686
+Number of iterations: 687
+Number of iterations: 688
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 689
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 690
+Number of iterations: 691
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 692
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 693
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 694
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 695
+Number of iterations: 696
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 697
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 698
+Updated by conan rule: #75 from: #83
+Number of iterations: 699
+Number of iterations: 700
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 701
+Number of iterations: 702
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 703
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 704
+Number of iterations: 705
+Number of iterations: 706
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 707
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 708
+Number of iterations: 709
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 710
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 711
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 712
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 713
+Number of iterations: 714
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 715
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 716
+Updated by conan rule: #75 from: #83
+Number of iterations: 717
+Number of iterations: 718
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 719
+Number of iterations: 720
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 721
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 722
+Number of iterations: 723
+Number of iterations: 724
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 725
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 726
+Number of iterations: 727
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 728
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 729
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 730
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 731
+Number of iterations: 732
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 733
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 734
+Updated by conan rule: #75 from: #83
+Number of iterations: 735
+Number of iterations: 736
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 737
+Number of iterations: 738
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 739
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 740
+Number of iterations: 741
+Number of iterations: 742
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 743
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 744
+Number of iterations: 745
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 746
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 747
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 748
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 749
+Number of iterations: 750
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 751
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 752
+Updated by conan rule: #75 from: #83
+Number of iterations: 753
+Number of iterations: 754
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 755
+Number of iterations: 756
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 757
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 758
+Number of iterations: 759
+Number of iterations: 760
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 761
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 762
+Number of iterations: 763
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 764
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 765
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 766
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 767
+Number of iterations: 768
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 769
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 770
+Updated by conan rule: #75 from: #83
+Number of iterations: 771
+Number of iterations: 772
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 773
+Number of iterations: 774
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 775
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 776
+Number of iterations: 777
+Number of iterations: 778
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 779
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 780
+Number of iterations: 781
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 782
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 783
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 784
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 785
+Number of iterations: 786
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 787
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 788
+Updated by conan rule: #75 from: #83
+Number of iterations: 789
+Number of iterations: 790
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 791
+Number of iterations: 792
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 793
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 794
+Number of iterations: 795
+Number of iterations: 796
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 797
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 798
+Number of iterations: 799
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 800
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 801
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 802
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 803
+Number of iterations: 804
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 805
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 806
+Updated by conan rule: #75 from: #83
+Number of iterations: 807
+Number of iterations: 808
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 809
+Number of iterations: 810
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 811
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 812
+Number of iterations: 813
+Number of iterations: 814
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 815
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 816
+Number of iterations: 817
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 818
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 819
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 820
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 821
+Number of iterations: 822
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 823
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 824
+Updated by conan rule: #75 from: #83
+Number of iterations: 825
+Number of iterations: 826
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 827
+Number of iterations: 828
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 829
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 830
+Number of iterations: 831
+Number of iterations: 832
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 833
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 834
+Number of iterations: 835
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 836
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 837
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 838
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 839
+Number of iterations: 840
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 841
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 842
+Updated by conan rule: #75 from: #83
+Number of iterations: 843
+Number of iterations: 844
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 845
+Number of iterations: 846
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 847
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 848
+Number of iterations: 849
+Number of iterations: 850
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 851
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 852
+Number of iterations: 853
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 854
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 855
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 856
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 857
+Number of iterations: 858
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 859
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 860
+Updated by conan rule: #75 from: #83
+Number of iterations: 861
+Number of iterations: 862
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 863
+Number of iterations: 864
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 865
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 866
+Number of iterations: 867
+Number of iterations: 868
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 869
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 870
+Number of iterations: 871
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 872
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 873
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 874
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 875
+Number of iterations: 876
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 877
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 878
+Updated by conan rule: #75 from: #83
+Number of iterations: 879
+Number of iterations: 880
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 881
+Number of iterations: 882
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 883
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 884
+Number of iterations: 885
+Number of iterations: 886
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 887
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 888
+Number of iterations: 889
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 890
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 891
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 892
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 893
+Number of iterations: 894
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 895
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 896
+Updated by conan rule: #75 from: #83
+Number of iterations: 897
+Number of iterations: 898
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 899
+Number of iterations: 900
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 901
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 902
+Number of iterations: 903
+Number of iterations: 904
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 905
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 906
+Number of iterations: 907
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 908
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 909
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 910
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 911
+Number of iterations: 912
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 913
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 914
+Updated by conan rule: #75 from: #83
+Number of iterations: 915
+Number of iterations: 916
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 917
+Number of iterations: 918
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 919
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 920
+Number of iterations: 921
+Number of iterations: 922
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 923
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 924
+Number of iterations: 925
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 926
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 927
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 928
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 929
+Number of iterations: 930
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 931
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 932
+Updated by conan rule: #75 from: #83
+Number of iterations: 933
+Number of iterations: 934
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 935
+Number of iterations: 936
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 937
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 938
+Number of iterations: 939
+Number of iterations: 940
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 941
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 942
+Number of iterations: 943
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 944
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 945
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 946
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 947
+Number of iterations: 948
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 949
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 950
+Updated by conan rule: #75 from: #83
+Number of iterations: 951
+Number of iterations: 952
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 953
+Number of iterations: 954
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 955
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 956
+Number of iterations: 957
+Number of iterations: 958
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 959
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 960
+Number of iterations: 961
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 962
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 963
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 964
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 965
+Number of iterations: 966
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 967
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 968
+Updated by conan rule: #75 from: #83
+Number of iterations: 969
+Number of iterations: 970
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 971
+Number of iterations: 972
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 973
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 974
+Number of iterations: 975
+Number of iterations: 976
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 977
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 978
+Number of iterations: 979
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 980
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 981
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 982
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 983
+Number of iterations: 984
+Updated by pathmax rule 1: #83 from: #68
+Updated by conan rule: #56 from: #68
+Number of iterations: 985
+
+
+State: #70 which descends from parent: #40 dominates child: #56
+Number of iterations: 986
+Updated by conan rule: #75 from: #83
+Number of iterations: 987
+Number of iterations: 988
+Updated by pathmax rule 1: #30 from: #67
+Updated by pathmax rule 1: #82 from: #67
+Updated by conan rule: #82 from: #67
+Number of iterations: 989
+Number of iterations: 990
+Updated by pathmax rule 2: #19 from: #30
+Number of iterations: 991
+
+
+State: #19 which descends from parent: #8 dominates child: #31
+Updated by pathmax rule 2: #8 from: #30
+
+
+State: #19 which descends from parent: #27 dominates child: #31
+
+
+State: #52 which descends from parent: #27 dominates child: #30
+Updated by pathmax rule 1: #31 from: #19
+Updated by conan rule: #31 from: #19
+Updated by conan rule: #78 from: #19
+Number of iterations: 992
+Number of iterations: 993
+Number of iterations: 994
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+Updated by pathmax rule 2: #3 from: #30
+Number of iterations: 995
+
+
+State: #40 which descends from parent: #1 dominates child: #58
+
+
+State: #39 which descends from parent: #1 dominates child: #55
+
+
+State: #58 which descends from parent: #1 dominates child: #69
+
+
+State: #5 which descends from parent: #1 dominates child: #13
+
+
+State: #14 which descends from parent: #1 dominates child: #26
+
+
+State: #52 which descends from parent: #1 dominates child: #30
+
+
+State: #19 which descends from parent: #1 dominates child: #31
+
+
+State: #46 which descends from parent: #1 dominates child: #65
+
+
+State: #46 which descends from parent: #1 dominates child: #47
+
+
+State: #33 which descends from parent: #1 dominates child: #49
+
+
+State: #49 which descends from parent: #1 dominates child: #34
+
+
+State: #64 which descends from parent: #1 dominates child: #50
+
+
+State: #36 which descends from parent: #1 dominates child: #51
+
+
+State: #51 which descends from parent: #1 dominates child: #37
+
+
+State: #50 which descends from parent: #1 dominates child: #35
+
+
+State: #64 which descends from parent: #1 dominates child: #52
+
+
+State: #38 which descends from parent: #1 dominates child: #53
+
+
+State: #11 which descends from parent: #1 dominates child: #23
+
+
+State: #3 which descends from parent: #1 dominates child: #9
+
+
+State: #25 which descends from parent: #1 dominates child: #30
+
+
+State: #53 which descends from parent: #1 dominates child: #31
+
+
+State: #8 which descends from parent: #1 dominates child: #17
+
+
+State: #7 which descends from parent: #1 dominates child: #18
+Updated by pathmax rule 1: #9 from: #3
+Updated by conan rule: #9 from: #3
+Updated by conan rule: #69 from: #3
+Updated by conan rule: #71 from: #3
+Number of iterations: 996
+Number of iterations: 997
+Updated by pathmax rule 2: #54 from: #69
+Number of iterations: 998
+Updated by pathmax rule 2: #39 from: #69
+Updated by pathmax rule 1: #67 from: #54
+Updated by pathmax rule 1: #68 from: #54
+Updated by conan rule: #17 from: #54
+Number of iterations: 999
+Updated by pathmax rule 2: #7 from: #17
+Number of iterations: 1000
+
+
+State: #7 which descends from parent: #3 dominates child: #18
+
+
+State: #30 which descends from parent: #3 dominates child: #17
+Updated by pathmax rule 1: #18 from: #7
+Updated by conan rule: #18 from: #7
+Number of iterations: 1001
+Peak memory: 13500 KB
+

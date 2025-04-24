@@ -1,0 +1,65 @@
+Expanding state: #9 with h: 1 and g: 4
+Atom at(t0, l1), Atom fuel(t0, level21), Atom in(p2, t0), Atom at(p1, l1)
+
+Successor state: #10 with h: 1 and g: 5
+Atom at(t0, l3), Atom fuel(t0, level21), Atom in(p2, t0), Atom at(p1, l1) // Este estado se poda en pruning, así que no se expande
+
+Successor state: #13 with h: 1 and g: 5
+Atom at(t0, l2), Atom fuel(t0, level18), Atom in(p2, t0), Atom at(p1, l1)
+
+Successor state: #14 with h: 1 and g: 5
+Atom at(t0, l1), Atom fuel(t0, level21), Atom in(p2, t0), Atom in(p1, t0)
+
+
+
+Expanding state: #10 with h: 1 and g: 5
+Atom at(t0, l3), Atom fuel(t0, level21), Atom in(p2, t0), Atom at(p1, l1)
+
+Successor state: #6 with h: 2 and g: 4
+Atom at(t0, l3), Atom fuel(t0, level21), Atom at(p2, l3), Atom at(p1, l1)
+
+
+
+Expanding state: #11 with h: 1 and g: 5
+Atom at(t0, l3), Atom fuel(t0, level21), Atom at(p2, l3), Atom in(p1, t0)
+
+Successor state: #15 with h: 1 and g: 6
+Atom at(t0, l3), Atom fuel(t0, level21), Atom in(p2, t0), Atom in(p1, t0)
+
+
+
+Expanding state: #12 with h: 1 and g: 5
+Atom at(t0, l2), Atom fuel(t0, level18), Atom at(p2, l3), Atom in(p1, t0)
+
+
+
+Expanding state: #14 with h: 1 and g: 5
+Atom at(t0, l1), Atom fuel(t0, level21), Atom in(p2, t0), Atom in(p1, t0)
+
+Successor state: #15 with h: 1 and g: 6
+Atom at(t0, l3), Atom fuel(t0, level21), Atom in(p2, t0), Atom in(p1, t0)
+
+Successor state: #16 with h: 1 and g: 6
+Atom at(t0, l2), Atom fuel(t0, level18), Atom in(p2, t0), Atom in(p1, t0)
+
+
+
+Expanding state: #15 with h: 1 and g: 6
+Atom at(t0, l3), Atom fuel(t0, level21), Atom in(p2, t0), Atom in(p1, t0)
+
+Successor state: #11 with h: 2 and g: 5
+Atom at(t0, l3), Atom fuel(t0, level21), Atom at(p2, l3), Atom in(p1, t0)
+
+
+
+Expanding state: #16 with h: 1 and g: 6
+Atom at(t0, l2), Atom fuel(t0, level18), Atom in(p2, t0), Atom in(p1, t0)
+
+Successor state: #17 with h: 0 and g: 9
+Atom at(t0, l0), Atom fuel(t0, level18), Atom at(p2, l0), Atom at(p1, l0)
+
+
+
+Expanding state: #13 with h: 3 and g: 5
+Atom at(t0, l2), Atom fuel(t0, level18), Atom in(p2, t0), Atom at(p1, l1)
+

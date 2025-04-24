@@ -81,6 +81,18 @@ class BothBiCondition(BiCondition):
 def InputReadCompletedCondition() -> BiCondition:
     return BothBiCondition(InputReadCompletedProperty())
 
+class SupersetCondition(BiCondition):
+    def __init__(self, property: Property | Condition):
+        self.property = property
+
+    def evaluate(self, lhs: str, rhs: str) -> bool:
+        lhs_set = set(self.property.evaluate(lhs))
+        rhs_set = set(self.property.evaluate(rhs))
+        print(f"lhs_set: {lhs_set}")
+        print(f"rhs_set: {rhs_set}")
+        
+        return lhs_set.issuperset(rhs_set)
+
 
 class ContrastiveRegressionEvaluator:
     # Evaluates the buggy configuration against the ground truth configuration

@@ -1,0 +1,24 @@
+
+
+Expanding state: #0 with h: 1 and g: 0
+Atom at(t0, l2), Atom at(p1, l1)
+Successor state: #1 with h: 1 and g: 1
+Atom at(t0, l0), Atom at(p1, l1)
+Successor state: #2 with h: 1 and g: 1
+Atom at(t0, l1), Atom at(p1, l1)
+
+
+Expanding state: #1 with h: 1 and g: 1
+Atom at(t0, l0), Atom at(p1, l1)
+Successor state: #0 with h: 2 and g: 0
+Atom at(t0, l2), Atom at(p1, l1)
+
+
+Expanding state: #2 with h: 1 and g: 1
+Atom at(t0, l1), Atom at(p1, l1)
+Successor state: #3 with h: 1 and g: 2
+Atom at(t0, l1), Atom in(p1, t0)
+
+
+Expanding state: #3 with h: 1 and g: 2
+Atom at(t0, l1), Atom in(p1, t0)

@@ -1,0 +1,5 @@
+(load p2 t0 l3)
+(unload p2 t0 l0)
+(load p1 t0 l1)
+(unload p1 t0 l0)
+; cost = 4 (unit cost)

@@ -1,0 +1,24 @@
+
+
+ Expanding state: #0
+Heuristic value: 1
+G value: 0
+
+
+
+ Expanding state: #1
+Heuristic value: 1
+G value: 1
+
+
+
+ Expanding state: #2
+Heuristic value: 1
+G value: 1
+
+
+
+ Expanding state: #3
+Heuristic value: 1
+G value: 2
+

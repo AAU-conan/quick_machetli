@@ -1,0 +1,24 @@
+
+
+Expanding state: #0 with h: 1 and g: 0
+Atom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-pushing(airplane_daewh), Atom at-segment(airplane_daewh, seg_pp_0_60)
+
+Successor state: #1 with h: 0 and g: 9
+NegatedAtom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-moving(airplane_daewh), Atom airborne(airplane_daewh, seg_rwe_0_50)
+
+Successor state: #2 with h: 1 and g: 1
+NegatedAtom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-moving(airplane_daewh), Atom at-segment(airplane_daewh, seg_pp_0_60)
+
+Successor state: #3 with h: 1 and g: 1
+Atom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-moving(airplane_daewh), Atom at-segment(airplane_daewh, seg_pp_0_60)
+
+
+
+Expanding state: #2 with h: 1 and g: 1
+NegatedAtom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-moving(airplane_daewh), Atom at-segment(airplane_daewh, seg_pp_0_60)
+
+
+
+Expanding state: #3 with h: 1 and g: 1
+Atom not_blocked(seg_ppdoor_0_40, airplane_daewh), Atom is-moving(airplane_daewh), Atom at-segment(airplane_daewh, seg_pp_0_60)
+

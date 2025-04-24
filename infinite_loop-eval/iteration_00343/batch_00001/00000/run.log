@@ -1,0 +1,2025 @@
+['/home/mafe/Documents/Phd/conan/conan-dev/builds/release/bin/downward', '--search', 'propagation(eval=propagation_evaluator(eval=blind()))']
+[t=0.000000s, 13104 KB] reading input...
+[t=0.000000s, 13104 KB] done reading input!
+[t=0.001000s, 13504 KB] Initializing blind search heuristic...
+[t=0.001000s, 13504 KB] Building successor generator...done!
+[t=0.002000s, 13504 KB] peak memory difference for successor generator creation: 0 KB
+[t=0.002000s, 13504 KB] time for successor generation creation: 0.001000s
+[t=0.002000s, 13504 KB] Variables: 5
+[t=0.002000s, 13504 KB] FactPairs: 55
+[t=0.002000s, 13504 KB] Bytes per state: 4
+[t=0.002000s, 13504 KB] Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Computing dominance relation...
+[t=0.002000s, 13504 KB] Building atomic transition systems... 
+[t=0.002000s, 13504 KB] Initialize label dominance: 8 labels 5 systems.
+[t=0.002000s, 13504 KB] Compute LDSim on 5 LTSs. Total factor size: 55, total trsize: 65, max factor size: 36, max trsize: 42
+[t=0.002000s, 13504 KB] Init LDSim in 0.000000s: 0.000000s 0.000000s 0.000000s 0.000000s
+[t=0.002000s, 13504 KB] LDSimulation finished: 0.000000s
+[t=0.002000s, 13504 KB] f = 1, 1 evaluated, 0 expanded
+[t=0.002000s, 13504 KB] pruning method: none
+[t=0.002000s, 13504 KB] New best heuristic value for blind: 1
+[t=0.002000s, 13504 KB] g=1, 2 evaluated, 1 expanded
+Number of iterations: 1
+Updated by pathmax rule 2: #0 from: #1
+Number of iterations: 2
+[t=0.002000s, 13504 KB] f = 2, 2 evaluated, 1 expanded
+Number of iterations: 3
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 4
+Updated by pathmax rule 2: #0 from: #3
+Number of iterations: 5
+Updated by conan rule: #2 from: #0
+Number of iterations: 6
+[t=0.002000s, 13504 KB] f = 3, 4 evaluated, 2 expanded
+Number of iterations: 7
+Updated by pathmax rule 2: #3 from: #4
+Number of iterations: 8
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 9
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 10
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 11
+Number of iterations: 12
+Updated by conan rule: #2 from: #0
+Number of iterations: 13
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 14
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 15
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 16
+Number of iterations: 17
+Updated by conan rule: #2 from: #0
+Number of iterations: 18
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 19
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 20
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 21
+Number of iterations: 22
+Updated by conan rule: #2 from: #0
+Number of iterations: 23
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 24
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 25
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 26
+Number of iterations: 27
+Updated by conan rule: #2 from: #0
+Number of iterations: 28
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 29
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 30
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 31
+Number of iterations: 32
+Updated by conan rule: #2 from: #0
+Number of iterations: 33
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 34
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 35
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 36
+Number of iterations: 37
+Updated by conan rule: #2 from: #0
+Number of iterations: 38
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 39
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 40
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 41
+Number of iterations: 42
+Updated by conan rule: #2 from: #0
+Number of iterations: 43
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 44
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 45
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 46
+Number of iterations: 47
+Updated by conan rule: #2 from: #0
+Number of iterations: 48
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 49
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 50
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 51
+Number of iterations: 52
+Updated by conan rule: #2 from: #0
+Number of iterations: 53
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 54
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 55
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 56
+Number of iterations: 57
+Updated by conan rule: #2 from: #0
+Number of iterations: 58
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 59
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 60
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 61
+Number of iterations: 62
+Updated by conan rule: #2 from: #0
+Number of iterations: 63
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 64
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 65
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 66
+Number of iterations: 67
+Updated by conan rule: #2 from: #0
+Number of iterations: 68
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 69
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 70
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 71
+Number of iterations: 72
+Updated by conan rule: #2 from: #0
+Number of iterations: 73
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 74
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 75
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 76
+Number of iterations: 77
+Updated by conan rule: #2 from: #0
+Number of iterations: 78
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 79
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 80
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 81
+Number of iterations: 82
+Updated by conan rule: #2 from: #0
+Number of iterations: 83
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 84
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 85
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 86
+Number of iterations: 87
+Updated by conan rule: #2 from: #0
+Number of iterations: 88
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 89
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 90
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 91
+Number of iterations: 92
+Updated by conan rule: #2 from: #0
+Number of iterations: 93
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 94
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 95
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 96
+Number of iterations: 97
+Updated by conan rule: #2 from: #0
+Number of iterations: 98
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 99
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 100
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 101
+Number of iterations: 102
+Updated by conan rule: #2 from: #0
+Number of iterations: 103
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 104
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 105
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 106
+Number of iterations: 107
+Updated by conan rule: #2 from: #0
+Number of iterations: 108
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 109
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 110
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 111
+Number of iterations: 112
+Updated by conan rule: #2 from: #0
+Number of iterations: 113
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 114
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 115
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 116
+Number of iterations: 117
+Updated by conan rule: #2 from: #0
+Number of iterations: 118
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 119
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 120
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 121
+Number of iterations: 122
+Updated by conan rule: #2 from: #0
+Number of iterations: 123
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 124
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 125
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 126
+Number of iterations: 127
+Updated by conan rule: #2 from: #0
+Number of iterations: 128
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 129
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 130
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 131
+Number of iterations: 132
+Updated by conan rule: #2 from: #0
+Number of iterations: 133
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 134
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 135
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 136
+Number of iterations: 137
+Updated by conan rule: #2 from: #0
+Number of iterations: 138
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 139
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 140
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 141
+Number of iterations: 142
+Updated by conan rule: #2 from: #0
+Number of iterations: 143
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 144
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 145
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 146
+Number of iterations: 147
+Updated by conan rule: #2 from: #0
+Number of iterations: 148
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 149
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 150
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 151
+Number of iterations: 152
+Updated by conan rule: #2 from: #0
+Number of iterations: 153
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 154
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 155
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 156
+Number of iterations: 157
+Updated by conan rule: #2 from: #0
+Number of iterations: 158
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 159
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 160
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 161
+Number of iterations: 162
+Updated by conan rule: #2 from: #0
+Number of iterations: 163
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 164
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 165
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 166
+Number of iterations: 167
+Updated by conan rule: #2 from: #0
+Number of iterations: 168
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 169
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 170
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 171
+Number of iterations: 172
+Updated by conan rule: #2 from: #0
+Number of iterations: 173
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 174
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 175
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 176
+Number of iterations: 177
+Updated by conan rule: #2 from: #0
+Number of iterations: 178
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 179
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 180
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 181
+Number of iterations: 182
+Updated by conan rule: #2 from: #0
+Number of iterations: 183
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 184
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 185
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 186
+Number of iterations: 187
+Updated by conan rule: #2 from: #0
+Number of iterations: 188
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 189
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 190
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 191
+Number of iterations: 192
+Updated by conan rule: #2 from: #0
+Number of iterations: 193
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 194
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 195
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 196
+Number of iterations: 197
+Updated by conan rule: #2 from: #0
+Number of iterations: 198
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 199
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 200
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 201
+Number of iterations: 202
+Updated by conan rule: #2 from: #0
+Number of iterations: 203
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 204
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 205
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 206
+Number of iterations: 207
+Updated by conan rule: #2 from: #0
+Number of iterations: 208
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 209
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 210
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 211
+Number of iterations: 212
+Updated by conan rule: #2 from: #0
+Number of iterations: 213
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 214
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 215
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 216
+Number of iterations: 217
+Updated by conan rule: #2 from: #0
+Number of iterations: 218
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 219
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 220
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 221
+Number of iterations: 222
+Updated by conan rule: #2 from: #0
+Number of iterations: 223
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 224
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 225
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 226
+Number of iterations: 227
+Updated by conan rule: #2 from: #0
+Number of iterations: 228
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 229
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 230
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 231
+Number of iterations: 232
+Updated by conan rule: #2 from: #0
+Number of iterations: 233
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 234
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 235
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 236
+Number of iterations: 237
+Updated by conan rule: #2 from: #0
+Number of iterations: 238
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 239
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 240
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 241
+Number of iterations: 242
+Updated by conan rule: #2 from: #0
+Number of iterations: 243
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 244
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 245
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 246
+Number of iterations: 247
+Updated by conan rule: #2 from: #0
+Number of iterations: 248
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 249
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 250
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 251
+Number of iterations: 252
+Updated by conan rule: #2 from: #0
+Number of iterations: 253
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 254
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 255
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 256
+Number of iterations: 257
+Updated by conan rule: #2 from: #0
+Number of iterations: 258
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 259
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 260
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 261
+Number of iterations: 262
+Updated by conan rule: #2 from: #0
+Number of iterations: 263
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 264
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 265
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 266
+Number of iterations: 267
+Updated by conan rule: #2 from: #0
+Number of iterations: 268
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 269
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 270
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 271
+Number of iterations: 272
+Updated by conan rule: #2 from: #0
+Number of iterations: 273
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 274
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 275
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 276
+Number of iterations: 277
+Updated by conan rule: #2 from: #0
+Number of iterations: 278
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 279
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 280
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 281
+Number of iterations: 282
+Updated by conan rule: #2 from: #0
+Number of iterations: 283
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 284
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 285
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 286
+Number of iterations: 287
+Updated by conan rule: #2 from: #0
+Number of iterations: 288
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 289
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 290
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 291
+Number of iterations: 292
+Updated by conan rule: #2 from: #0
+Number of iterations: 293
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 294
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 295
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 296
+Number of iterations: 297
+Updated by conan rule: #2 from: #0
+Number of iterations: 298
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 299
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 300
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 301
+Number of iterations: 302
+Updated by conan rule: #2 from: #0
+Number of iterations: 303
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 304
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 305
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 306
+Number of iterations: 307
+Updated by conan rule: #2 from: #0
+Number of iterations: 308
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 309
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 310
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 311
+Number of iterations: 312
+Updated by conan rule: #2 from: #0
+Number of iterations: 313
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 314
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 315
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 316
+Number of iterations: 317
+Updated by conan rule: #2 from: #0
+Number of iterations: 318
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 319
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 320
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 321
+Number of iterations: 322
+Updated by conan rule: #2 from: #0
+Number of iterations: 323
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 324
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 325
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 326
+Number of iterations: 327
+Updated by conan rule: #2 from: #0
+Number of iterations: 328
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 329
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 330
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 331
+Number of iterations: 332
+Updated by conan rule: #2 from: #0
+Number of iterations: 333
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 334
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 335
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 336
+Number of iterations: 337
+Updated by conan rule: #2 from: #0
+Number of iterations: 338
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 339
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 340
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 341
+Number of iterations: 342
+Updated by conan rule: #2 from: #0
+Number of iterations: 343
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 344
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 345
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 346
+Number of iterations: 347
+Updated by conan rule: #2 from: #0
+Number of iterations: 348
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 349
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 350
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 351
+Number of iterations: 352
+Updated by conan rule: #2 from: #0
+Number of iterations: 353
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 354
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 355
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 356
+Number of iterations: 357
+Updated by conan rule: #2 from: #0
+Number of iterations: 358
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 359
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 360
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 361
+Number of iterations: 362
+Updated by conan rule: #2 from: #0
+Number of iterations: 363
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 364
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 365
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 366
+Number of iterations: 367
+Updated by conan rule: #2 from: #0
+Number of iterations: 368
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 369
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 370
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 371
+Number of iterations: 372
+Updated by conan rule: #2 from: #0
+Number of iterations: 373
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 374
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 375
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 376
+Number of iterations: 377
+Updated by conan rule: #2 from: #0
+Number of iterations: 378
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 379
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 380
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 381
+Number of iterations: 382
+Updated by conan rule: #2 from: #0
+Number of iterations: 383
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 384
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 385
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 386
+Number of iterations: 387
+Updated by conan rule: #2 from: #0
+Number of iterations: 388
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 389
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 390
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 391
+Number of iterations: 392
+Updated by conan rule: #2 from: #0
+Number of iterations: 393
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 394
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 395
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 396
+Number of iterations: 397
+Updated by conan rule: #2 from: #0
+Number of iterations: 398
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 399
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 400
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 401
+Number of iterations: 402
+Updated by conan rule: #2 from: #0
+Number of iterations: 403
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 404
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 405
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 406
+Number of iterations: 407
+Updated by conan rule: #2 from: #0
+Number of iterations: 408
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 409
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 410
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 411
+Number of iterations: 412
+Updated by conan rule: #2 from: #0
+Number of iterations: 413
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 414
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 415
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 416
+Number of iterations: 417
+Updated by conan rule: #2 from: #0
+Number of iterations: 418
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 419
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 420
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 421
+Number of iterations: 422
+Updated by conan rule: #2 from: #0
+Number of iterations: 423
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 424
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 425
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 426
+Number of iterations: 427
+Updated by conan rule: #2 from: #0
+Number of iterations: 428
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 429
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 430
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 431
+Number of iterations: 432
+Updated by conan rule: #2 from: #0
+Number of iterations: 433
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 434
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 435
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 436
+Number of iterations: 437
+Updated by conan rule: #2 from: #0
+Number of iterations: 438
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 439
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 440
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 441
+Number of iterations: 442
+Updated by conan rule: #2 from: #0
+Number of iterations: 443
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 444
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 445
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 446
+Number of iterations: 447
+Updated by conan rule: #2 from: #0
+Number of iterations: 448
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 449
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 450
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 451
+Number of iterations: 452
+Updated by conan rule: #2 from: #0
+Number of iterations: 453
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 454
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 455
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 456
+Number of iterations: 457
+Updated by conan rule: #2 from: #0
+Number of iterations: 458
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 459
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 460
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 461
+Number of iterations: 462
+Updated by conan rule: #2 from: #0
+Number of iterations: 463
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 464
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 465
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 466
+Number of iterations: 467
+Updated by conan rule: #2 from: #0
+Number of iterations: 468
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 469
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 470
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 471
+Number of iterations: 472
+Updated by conan rule: #2 from: #0
+Number of iterations: 473
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 474
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 475
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 476
+Number of iterations: 477
+Updated by conan rule: #2 from: #0
+Number of iterations: 478
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 479
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 480
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 481
+Number of iterations: 482
+Updated by conan rule: #2 from: #0
+Number of iterations: 483
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 484
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 485
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 486
+Number of iterations: 487
+Updated by conan rule: #2 from: #0
+Number of iterations: 488
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 489
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 490
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 491
+Number of iterations: 492
+Updated by conan rule: #2 from: #0
+Number of iterations: 493
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 494
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 495
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 496
+Number of iterations: 497
+Updated by conan rule: #2 from: #0
+Number of iterations: 498
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 499
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 500
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 501
+Number of iterations: 502
+Updated by conan rule: #2 from: #0
+Number of iterations: 503
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 504
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 505
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 506
+Number of iterations: 507
+Updated by conan rule: #2 from: #0
+Number of iterations: 508
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 509
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 510
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 511
+Number of iterations: 512
+Updated by conan rule: #2 from: #0
+Number of iterations: 513
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 514
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 515
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 516
+Number of iterations: 517
+Updated by conan rule: #2 from: #0
+Number of iterations: 518
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 519
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 520
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 521
+Number of iterations: 522
+Updated by conan rule: #2 from: #0
+Number of iterations: 523
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 524
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 525
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 526
+Number of iterations: 527
+Updated by conan rule: #2 from: #0
+Number of iterations: 528
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 529
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 530
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 531
+Number of iterations: 532
+Updated by conan rule: #2 from: #0
+Number of iterations: 533
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 534
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 535
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 536
+Number of iterations: 537
+Updated by conan rule: #2 from: #0
+Number of iterations: 538
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 539
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 540
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 541
+Number of iterations: 542
+Updated by conan rule: #2 from: #0
+Number of iterations: 543
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 544
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 545
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 546
+Number of iterations: 547
+Updated by conan rule: #2 from: #0
+Number of iterations: 548
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 549
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 550
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 551
+Number of iterations: 552
+Updated by conan rule: #2 from: #0
+Number of iterations: 553
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 554
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 555
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 556
+Number of iterations: 557
+Updated by conan rule: #2 from: #0
+Number of iterations: 558
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 559
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 560
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 561
+Number of iterations: 562
+Updated by conan rule: #2 from: #0
+Number of iterations: 563
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 564
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 565
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 566
+Number of iterations: 567
+Updated by conan rule: #2 from: #0
+Number of iterations: 568
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 569
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 570
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 571
+Number of iterations: 572
+Updated by conan rule: #2 from: #0
+Number of iterations: 573
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 574
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 575
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 576
+Number of iterations: 577
+Updated by conan rule: #2 from: #0
+Number of iterations: 578
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 579
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 580
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 581
+Number of iterations: 582
+Updated by conan rule: #2 from: #0
+Number of iterations: 583
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 584
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 585
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 586
+Number of iterations: 587
+Updated by conan rule: #2 from: #0
+Number of iterations: 588
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 589
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 590
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 591
+Number of iterations: 592
+Updated by conan rule: #2 from: #0
+Number of iterations: 593
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 594
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 595
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 596
+Number of iterations: 597
+Updated by conan rule: #2 from: #0
+Number of iterations: 598
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 599
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 600
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 601
+Number of iterations: 602
+Updated by conan rule: #2 from: #0
+Number of iterations: 603
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 604
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 605
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 606
+Number of iterations: 607
+Updated by conan rule: #2 from: #0
+Number of iterations: 608
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 609
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 610
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 611
+Number of iterations: 612
+Updated by conan rule: #2 from: #0
+Number of iterations: 613
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 614
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 615
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 616
+Number of iterations: 617
+Updated by conan rule: #2 from: #0
+Number of iterations: 618
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 619
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 620
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 621
+Number of iterations: 622
+Updated by conan rule: #2 from: #0
+Number of iterations: 623
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 624
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 625
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 626
+Number of iterations: 627
+Updated by conan rule: #2 from: #0
+Number of iterations: 628
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 629
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 630
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 631
+Number of iterations: 632
+Updated by conan rule: #2 from: #0
+Number of iterations: 633
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 634
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 635
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 636
+Number of iterations: 637
+Updated by conan rule: #2 from: #0
+Number of iterations: 638
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 639
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 640
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 641
+Number of iterations: 642
+Updated by conan rule: #2 from: #0
+Number of iterations: 643
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 644
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 645
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 646
+Number of iterations: 647
+Updated by conan rule: #2 from: #0
+Number of iterations: 648
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 649
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 650
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 651
+Number of iterations: 652
+Updated by conan rule: #2 from: #0
+Number of iterations: 653
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 654
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 655
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 656
+Number of iterations: 657
+Updated by conan rule: #2 from: #0
+Number of iterations: 658
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 659
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 660
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 661
+Number of iterations: 662
+Updated by conan rule: #2 from: #0
+Number of iterations: 663
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 664
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 665
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 666
+Number of iterations: 667
+Updated by conan rule: #2 from: #0
+Number of iterations: 668
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 669
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 670
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 671
+Number of iterations: 672
+Updated by conan rule: #2 from: #0
+Number of iterations: 673
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 674
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 675
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 676
+Number of iterations: 677
+Updated by conan rule: #2 from: #0
+Number of iterations: 678
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 679
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 680
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 681
+Number of iterations: 682
+Updated by conan rule: #2 from: #0
+Number of iterations: 683
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 684
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 685
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 686
+Number of iterations: 687
+Updated by conan rule: #2 from: #0
+Number of iterations: 688
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 689
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 690
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 691
+Number of iterations: 692
+Updated by conan rule: #2 from: #0
+Number of iterations: 693
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 694
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 695
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 696
+Number of iterations: 697
+Updated by conan rule: #2 from: #0
+Number of iterations: 698
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 699
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 700
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 701
+Number of iterations: 702
+Updated by conan rule: #2 from: #0
+Number of iterations: 703
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 704
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 705
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 706
+Number of iterations: 707
+Updated by conan rule: #2 from: #0
+Number of iterations: 708
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 709
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 710
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 711
+Number of iterations: 712
+Updated by conan rule: #2 from: #0
+Number of iterations: 713
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 714
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 715
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 716
+Number of iterations: 717
+Updated by conan rule: #2 from: #0
+Number of iterations: 718
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 719
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 720
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 721
+Number of iterations: 722
+Updated by conan rule: #2 from: #0
+Number of iterations: 723
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 724
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 725
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 726
+Number of iterations: 727
+Updated by conan rule: #2 from: #0
+Number of iterations: 728
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 729
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 730
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 731
+Number of iterations: 732
+Updated by conan rule: #2 from: #0
+Number of iterations: 733
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 734
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 735
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 736
+Number of iterations: 737
+Updated by conan rule: #2 from: #0
+Number of iterations: 738
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 739
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 740
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 741
+Number of iterations: 742
+Updated by conan rule: #2 from: #0
+Number of iterations: 743
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 744
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 745
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 746
+Number of iterations: 747
+Updated by conan rule: #2 from: #0
+Number of iterations: 748
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 749
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 750
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 751
+Number of iterations: 752
+Updated by conan rule: #2 from: #0
+Number of iterations: 753
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 754
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 755
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 756
+Number of iterations: 757
+Updated by conan rule: #2 from: #0
+Number of iterations: 758
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 759
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 760
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 761
+Number of iterations: 762
+Updated by conan rule: #2 from: #0
+Number of iterations: 763
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 764
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 765
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 766
+Number of iterations: 767
+Updated by conan rule: #2 from: #0
+Number of iterations: 768
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 769
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 770
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 771
+Number of iterations: 772
+Updated by conan rule: #2 from: #0
+Number of iterations: 773
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 774
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 775
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 776
+Number of iterations: 777
+Updated by conan rule: #2 from: #0
+Number of iterations: 778
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 779
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 780
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 781
+Number of iterations: 782
+Updated by conan rule: #2 from: #0
+Number of iterations: 783
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 784
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 785
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 786
+Number of iterations: 787
+Updated by conan rule: #2 from: #0
+Number of iterations: 788
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 789
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 790
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 791
+Number of iterations: 792
+Updated by conan rule: #2 from: #0
+Number of iterations: 793
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 794
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 795
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 796
+Number of iterations: 797
+Updated by conan rule: #2 from: #0
+Number of iterations: 798
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 799
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 800
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 801
+Number of iterations: 802
+Updated by conan rule: #2 from: #0
+Number of iterations: 803
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 804
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 805
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 806
+Number of iterations: 807
+Updated by conan rule: #2 from: #0
+Number of iterations: 808
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 809
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 810
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 811
+Number of iterations: 812
+Updated by conan rule: #2 from: #0
+Number of iterations: 813
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 814
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 815
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 816
+Number of iterations: 817
+Updated by conan rule: #2 from: #0
+Number of iterations: 818
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 819
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 820
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 821
+Number of iterations: 822
+Updated by conan rule: #2 from: #0
+Number of iterations: 823
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 824
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 825
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 826
+Number of iterations: 827
+Updated by conan rule: #2 from: #0
+Number of iterations: 828
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 829
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 830
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 831
+Number of iterations: 832
+Updated by conan rule: #2 from: #0
+Number of iterations: 833
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 834
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 835
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 836
+Number of iterations: 837
+Updated by conan rule: #2 from: #0
+Number of iterations: 838
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 839
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 840
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 841
+Number of iterations: 842
+Updated by conan rule: #2 from: #0
+Number of iterations: 843
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 844
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 845
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 846
+Number of iterations: 847
+Updated by conan rule: #2 from: #0
+Number of iterations: 848
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 849
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 850
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 851
+Number of iterations: 852
+Updated by conan rule: #2 from: #0
+Number of iterations: 853
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 854
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 855
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 856
+Number of iterations: 857
+Updated by conan rule: #2 from: #0
+Number of iterations: 858
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 859
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 860
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 861
+Number of iterations: 862
+Updated by conan rule: #2 from: #0
+Number of iterations: 863
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 864
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 865
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 866
+Number of iterations: 867
+Updated by conan rule: #2 from: #0
+Number of iterations: 868
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 869
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 870
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 871
+Number of iterations: 872
+Updated by conan rule: #2 from: #0
+Number of iterations: 873
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 874
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 875
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 876
+Number of iterations: 877
+Updated by conan rule: #2 from: #0
+Number of iterations: 878
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 879
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 880
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 881
+Number of iterations: 882
+Updated by conan rule: #2 from: #0
+Number of iterations: 883
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 884
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 885
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 886
+Number of iterations: 887
+Updated by conan rule: #2 from: #0
+Number of iterations: 888
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 889
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 890
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 891
+Number of iterations: 892
+Updated by conan rule: #2 from: #0
+Number of iterations: 893
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 894
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 895
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 896
+Number of iterations: 897
+Updated by conan rule: #2 from: #0
+Number of iterations: 898
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 899
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 900
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 901
+Number of iterations: 902
+Updated by conan rule: #2 from: #0
+Number of iterations: 903
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 904
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 905
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 906
+Number of iterations: 907
+Updated by conan rule: #2 from: #0
+Number of iterations: 908
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 909
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 910
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 911
+Number of iterations: 912
+Updated by conan rule: #2 from: #0
+Number of iterations: 913
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 914
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 915
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 916
+Number of iterations: 917
+Updated by conan rule: #2 from: #0
+Number of iterations: 918
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 919
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 920
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 921
+Number of iterations: 922
+Updated by conan rule: #2 from: #0
+Number of iterations: 923
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 924
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 925
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 926
+Number of iterations: 927
+Updated by conan rule: #2 from: #0
+Number of iterations: 928
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 929
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 930
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 931
+Number of iterations: 932
+Updated by conan rule: #2 from: #0
+Number of iterations: 933
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 934
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 935
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 936
+Number of iterations: 937
+Updated by conan rule: #2 from: #0
+Number of iterations: 938
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 939
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 940
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 941
+Number of iterations: 942
+Updated by conan rule: #2 from: #0
+Number of iterations: 943
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 944
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 945
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 946
+Number of iterations: 947
+Updated by conan rule: #2 from: #0
+Number of iterations: 948
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 949
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 950
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 951
+Number of iterations: 952
+Updated by conan rule: #2 from: #0
+Number of iterations: 953
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 954
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 955
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 956
+Number of iterations: 957
+Updated by conan rule: #2 from: #0
+Number of iterations: 958
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 959
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 960
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 961
+Number of iterations: 962
+Updated by conan rule: #2 from: #0
+Number of iterations: 963
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 964
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 965
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 966
+Number of iterations: 967
+Updated by conan rule: #2 from: #0
+Number of iterations: 968
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 969
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 970
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 971
+Number of iterations: 972
+Updated by conan rule: #2 from: #0
+Number of iterations: 973
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 974
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 975
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 976
+Number of iterations: 977
+Updated by conan rule: #2 from: #0
+Number of iterations: 978
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 979
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 980
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 981
+Number of iterations: 982
+Updated by conan rule: #2 from: #0
+Number of iterations: 983
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 984
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 985
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 986
+Number of iterations: 987
+Updated by conan rule: #2 from: #0
+Number of iterations: 988
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 989
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 990
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 991
+Number of iterations: 992
+Updated by conan rule: #2 from: #0
+Number of iterations: 993
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 994
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 995
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 996
+Number of iterations: 997
+Updated by conan rule: #2 from: #0
+Number of iterations: 998
+Updated by pathmax rule 2: #1 from: #2
+Number of iterations: 999
+Updated by pathmax rule 2: #0 from: #4
+Updated by pathmax rule 1: #3 from: #1
+Number of iterations: 1000
+Updated by pathmax rule 1: #4 from: #3
+Number of iterations: 1001
+Peak memory: 13504 KB
+

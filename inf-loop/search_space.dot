@@ -1,0 +1,7 @@
+digraph G {
+  0 [label="2: Atom at(t0, l3), Atom fuel(t0, level22), Atom at(p2, l3), Atom at(p1, l1)",xlabel="h=1"];
+  1 [label="1: Atom at(t0, l1), Atom fuel(t0, level33), Atom at(p2, l3), Atom at(p1, l1)",xlabel="h=1"];
+  2 [label="0: Atom at(t0, l2), Atom fuel(t0, level36), Atom at(p2, l3), Atom at(p1, l1)"];
+  2 -> 1 [label="drive t0 l2 l1 level33 level3 level36"];
+  1 -> 0 [label="drive t0 l1 l3 level22 level11 level33"];
+}

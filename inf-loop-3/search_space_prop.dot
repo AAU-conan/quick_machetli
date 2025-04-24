@@ -1,0 +1,35 @@
+digraph G {
+  0 [label="7: Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l0)",xlabel="h=1"];
+  1 [label="6: Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l0)",xlabel="h=1"];
+  2 [label="5: Atom at(t0, l2), Atom at(p2, l3), Atom at(p1, l0)",xlabel="h=1"];
+  3 [label="3: Atom at(t0, l1), Atom at(p2, l3), Atom in(p1, t0)",xlabel="h=1"];
+  4 [label="2: Atom at(t0, l3), Atom at(p2, l3), Atom at(p1, l1)",xlabel="h=1"];
+  5 [label="4: Atom at(t0, l3), Atom at(p2, l3), Atom in(p1, t0)",xlabel="h=1"];
+  6 [label="1: Atom at(t0, l1), Atom at(p2, l3), Atom at(p1, l1)",xlabel="h=1"];
+  7 [label="0: Atom at(t0, l2), Atom at(p2, l3), Atom at(p1, l1)"];
+  6 -> 7 [label="h=2",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  4 -> 6 [label="h=2",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  5 -> 3 [label="h=2",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  5 -> 6 [label="h=3",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  5 -> 7 [label="h=4",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  2 -> 5 [label="h=4",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  2 -> 3 [label="h=5",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  2 -> 6 [label="h=6",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  3 -> 7 [label="h=5",color=orange2,fontcolor=orange2,constraint=false];
+  2 -> 7 [label="h=7",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  1 -> 2 [label="h=2",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  1 -> 5 [label="h=5",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  1 -> 3 [label="h=6",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  1 -> 6 [label="h=7",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  1 -> 7 [label="h=8",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  0 -> 1 [label="h=2",color=deepskyblue2,fontcolor=deepskyblue2,constraint=false];
+  7 -> 6 [label="drive t0 l2 l1 level33 level3 level36"];
+  7 -> 4 [label="drive t0 l2 l3 level10 level6 level16"];
+  6 -> 4 [label="drive t0 l1 l3 level22 level11 level33"];
+  6 -> 3 [label="load p1 t0 l1"];
+  3 -> 5 [label="drive t0 l1 l3 level22 level11 level33"];
+  5 -> 2 [label="drive t0 l3 l0 level4 level18 level22) and then (unload p1 t0 l0) and then (drive t0 l0 l2 level2 level2 level4"];
+  2 -> 1 [label="drive t0 l2 l1 level33 level3 level36"];
+  2 -> 0 [label="drive t0 l2 l3 level10 level6 level16"];
+  1 -> 0 [label="drive t0 l1 l3 level22 level11 level33"];
+}

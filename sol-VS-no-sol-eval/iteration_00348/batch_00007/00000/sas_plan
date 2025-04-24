@@ -1,0 +1,5 @@
+(drive t0 l2 l3 level30 level6 level36) and then (load p2 t0 l3)
+(drive t0 l3 l1 level19 level11 level30)
+(drive t0 l1 l0 level6 level13 level19) and then (unload p1 t0 l0)
+(unload p2 t0 l0)
+; cost = 6 (general cost)
