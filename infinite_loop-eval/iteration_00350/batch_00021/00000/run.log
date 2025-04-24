@@ -1,4 +1,0 @@
-['/home/mafe/Documents/Phd/conan/conan-dev/builds/release/bin/downward', '--search', 'propagation(eval=propagation_evaluator(eval=blind()))']
-[t=0.000000s, 13104 KB] reading input...
-Peak memory: 13104 KB
-
