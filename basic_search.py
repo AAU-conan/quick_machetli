@@ -23,7 +23,8 @@ result = search(
         sas.RemoveGoals(),
     ],
     Path(__file__).parent / args.evaluator_file,
-    environments.LocalEnvironment(exp_name=args.evaluator_file.stem),
+    environments.SlurmEnvironment(exp_name=args.evaluator_file.stem, partition=args.partition, memory_per_cpu="32000M"),
+    # environments.LocalEnvironment(exp_name=args.evaluator_file.stem),
 )
 
 sas.write_file(result, "result.sas")
