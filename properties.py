@@ -6,6 +6,9 @@ class Property:
     def evaluate(self, input: str):
         raise NotImplementedError()
 
+    def __str__(self):
+        return f"{self.__class__.__name__}()"
+
 class RegexProperty(Property):
     # Uses regex to extract a string property from a log
     def __init__(self, regex: str):
@@ -33,13 +36,27 @@ class RegexContainsProperty(RegexProperty):
 
 class InputReadCompletedProperty(Property):
     def evaluate(self, input: str) -> bool:
-        return "done reading input!" in input
+        return "done reading input!" in input or "Reading input task... Finished" in input
 
 def SolvedProperty() -> RegexContainsProperty:
-    return RegexContainsProperty(r"Solution found.")
+    return RegexContainsProperty(r"Solution found.|Goal reached. Start extraction of solution.")
 
 def UnsolvableProperty() -> RegexContainsProperty:
-    return RegexContainsProperty(r"Completely explored state space -- no solution!")
+    return RegexContainsProperty(r"Completely explored state space -- no solution!|No solution could be found")
 
 def CostProperty() -> TypedRegexProperty:
     return TypedRegexProperty(r"Plan cost: (\d+)", int)
+
+class ObjectiveValueProperty(Property):
+    def evaluate(self, input: str) -> float | None:
+        match = re.search(r"Objective value for the initial state lies within the interval \[(\d+|inf), (?:\d+\.?\d*|inf)\]", input)
+        if match:
+            return float(match.group(1))
+        else:
+            match = re.search(r"No policy found for the initial state.", input)
+            if match:
+                return float('inf')
+        return None
+
+def ExpandedUntilLastJumpProperty() -> TypedRegexProperty:
+    return TypedRegexProperty(r"Expanded until last jump: (\d+)", int)

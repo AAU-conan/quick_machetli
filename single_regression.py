@@ -27,6 +27,20 @@ class LambdaCondition(Condition):
     def evaluate(self, log: str) -> bool:
         return self.function(*[p.evaluate(log) for p in self.properties])
 
+class IsNoneCondition(Condition):
+    def __init__(self, property: Property):
+        self.property = property
+
+    def evaluate(self, log: str) -> bool:
+        return self.property.evaluate(log) is None
+
+class NotCondition(Condition):
+    def __init__(self, condition: Condition):
+        self.condition = condition
+
+    def evaluate(self, log: str) -> bool:
+        return not self.condition.evaluate(log)
+
 class SingleRegressionEvaluator:
     # Evaluates the buggy configuration against the ground truth configuration
     def __init__(self, run_env: RunEnvironment, configuration: str, conditions: list[Condition | Property]):
@@ -37,9 +51,10 @@ class SingleRegressionEvaluator:
     def run_evaluator(self):
         def evaluate(sas_file: Path):
             log = self.run_env.run_planner(sas_file, self.configuration)
-            return all(
-                condition.evaluate(log.stdout)
-                for condition in self.conditions
-            )
+            for condition in self.conditions:
+                if not condition.evaluate(log.stdout):
+                    print(f"Condition failed: {condition}")
+                    return False
+            return True
 
         sas.run_evaluator(evaluate)
