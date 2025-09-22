@@ -37,3 +37,32 @@ class MCCCplexRunEnvironment(RunEnvironment):
         print(result.stdout)
         print(result.stderr, file=sys.stderr)
         return result
+
+class LocalProbfdRunEnvironment(RunEnvironment):
+    def __init__(self, planner: Path, time_limit=30):
+        self.planner = planner
+        self.time_limit = time_limit
+
+    def run_planner(self, sas_file: Path, configuration: str) -> CompletedProcess[str]:
+        cmd = [str(self.planner), "search", configuration, str(sas_file)]
+        print(cmd)
+        result = tools.run(
+            cmd, cpu_time_limit=self.time_limit, memory_limit=1024, text=True
+        )
+        print(result.stdout)
+        print(result.stderr, file=sys.stderr)
+        return result
+
+class LocalPyperplanRunEnvironment(RunEnvironment):
+    def __init__(self, planner: Path):
+        self.planner = planner
+
+    def run_planner(self, sas_file: Path, configuration: str) -> CompletedProcess[str]:
+        cmd = ["./.venv/bin/python", "pyperplan", str(sas_file)] + configuration.split(" ")
+        print(cmd)
+        result = tools.run(
+            cmd, cpu_time_limit=30, memory_limit=1024, text=True, cwd=self.planner
+        )
+        print(result.stdout)
+        print(result.stderr, file=sys.stderr)
+        return result
